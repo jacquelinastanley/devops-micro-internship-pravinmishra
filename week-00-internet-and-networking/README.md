@@ -334,6 +334,7 @@ What I found difficult was managing the new parts of the task and making sure I 
 ### What will you improve next week?
 
 Next week, I will improve by planning my work earlier, checking my progress more carefully, and asking questions sooner if I am unsure.
+
 ---
 
 ## 📌 About DMI & CloudAdvisory
