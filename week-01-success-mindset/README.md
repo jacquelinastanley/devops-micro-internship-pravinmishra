@@ -287,15 +287,15 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Hours per Day Focused on Task 
-* Sleep Tracking / Sleep quality
-* Pages per day from Reading 
-* Certifications completed
-* Water intake
-* Screen time
-* Monthly savings / Emergency fund progress
-* Mood Tracking - Stress level
-* New places visited
+* Spendings Tracker - Monthly 
+* Workout - Daily - Yes / No 
+* Pages from Reading - Daily 
+* No of Certifications / Courses completed - Yearly ( Goal is 10 )
+* Water intake ( 8 Cups dailhy )
+* Prayers per week ( Once per day )
+* Gold Investment Purchase per month 
+* Mood Tracking - Stress level - Emotion feeling - Daily
+* New places visited  / New experiences - Weekly or Monthly
 * No of People helped 
 
 ---
@@ -318,11 +318,11 @@ Examples:
 
 ### Did You Do It?
 
-**Yes / No**
+**Yes **
 
 Answer:
 
-Add your answer here...
+Yes I did it by writing it down in my notebook, I also wrote down important dates on my calender for appointments or events. I keep a daily schedule to-do list for planing the day , I dont follow it 100% but it provides some structure to know what I need to accomplish. 
 
 ---
 
@@ -338,9 +338,39 @@ Example:
 * Sat: DMI session
 * Sun: Weekly review
 
-#### My Weekly Routine
+#### My Weekly Routine - Following Malaysia Time 
 
-Add your answer here...
+Monday – Friday
+
+* 6:00 AM – Wake up and complete morning routine
+* 8:00 AM – 10:00 AM – Exercise (Home Workout) and Shower
+* 10:00 AM – 1:00 PM – Deep Work (DMI assignments, labs, and projects)
+* 1:00 PM – 2:00 PM – Lunch and personal errands
+* 2:00 PM – 3:00 PM – Complete pending tasks, household chores, or personal commitments
+* 3:00 PM – 4:00 PM – Relax and recharge before work
+* 4:00 PM – 1:00 AM – Work
+
+Friday - Do reflection week post on LinkedIn 
+
+Every Wednesday or Thursday ( Replace Saturday )
+* 6:00 AM – Wake up and complete morning routine
+* 8:00 AM – 10:00 AM – Exercise (Home Workout) and Shower
+* 10:00 AM – 4:00 PM – Recovery/Flex Day for rest, appointments, hobbies, catching up on tasks, or spending time with family and friends
+* 4:00 PM – 1:00 AM – Work
+
+Saturday
+* 6:00 AM – Wake up and complete morning routine
+* 8:00 AM – 10:00 AM – Exercise (Home Workout) and Shower
+* 10:00 AM – 12:00 PM – Lunch and relax before the DMI session
+* 12:00 PM – 8:00 PM – Attend DMI live session
+* 8:00 PM – 9:00 PM – Review notes, plan the upcoming week, and identify next actions
+* Enjoy the rest of the evening
+
+Sunday
+* Spend quality time with family and friends.
+* Rest and recharge for the week ahead.
+* Light reflection on weekly progress if needed.
+
 
 ---
 
@@ -348,11 +378,14 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday - Friday with exceptions on either Wednesday or  Thursday 
+
+10:00 AM – 1:00 PM
+
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+4 Days in the Week 
 
 ---
 
@@ -366,7 +399,13 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* Using Focus Friend app to stay focus and block other apps on Phone.
+* No social media until the day's deep work is complete.
+* Study at a clean desk with only the applications needed.
+* Enjoy short breaks fully to prevent focus time being affected
+* Write distracting thoughts in a notebook instead of switching tasks.
+* Finish one task - Relax for 2 minutes by streaching -  starting another.
+* Review progress every Sunday and adjust the following week's priorities.
 
 ---
 
@@ -374,15 +413,16 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+This week I realized that I perform best when I have a clear vision and a structured plan. When I know exactly what I'm working toward, it becomes much easier to stay disciplined and make decisions that support my future instead of just reacting to the present. I also learned that consistency matters more than motivation. Small actions repeated every day are what will help me become the person I want to be, whether that's improving my health, growing my technical skills, or building my career.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I noticed that I sometimes spend too much time planning, organizing, or thinking about the perfect approach instead of taking immediate action. I also realized that when my energy drops or my routine is interrupted, I'm more likely to fall into unhealthy habits that affect the rest of my day. Breaking that cycle early is important because one missed habit can easily lead to another if I don't reset quickly.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Every weekday from 10:00 AM – 1:00 PM, I will complete one uninterrupted Deep Work block focused only on my DevOps Micro Internship assignments and learning.
+
 
 ### LinkedIn Post
 
