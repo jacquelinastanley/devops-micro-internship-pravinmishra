@@ -132,8 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅  | ✅ Solved | [Linked In Post](https://www.linkedin.com/posts/jacquelinastanley_devops-basics-activity-7439312610807771136-QPdj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo)| [Medium Post](https://medium.com/@jacquelinastanley/how-devops-engineers-can-use-chatgpt-to-write-better-prompts-and-get-better-answers-c2baaf013ffb?sharedUserId=jacquelinastanley) |  |  |
-| 01 | Success Mindset | 🔄 In Progress | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed  | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_devops-basics-activity-7439312610807771136-QPdj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo)| [Medium Post](https://medium.com/@jacquelinastanley/how-devops-engineers-can-use-chatgpt-to-write-better-prompts-and-get-better-answers-c2baaf013ffb?sharedUserId=jacquelinastanley) |  |  |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_growthmindset-learninginpublic-careergrowth-share-7478455275834744834-a2Lg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/the-future-i-wrote-before-it-existed-ee70083dcf58?sharedUserId=jacquelinastanley) |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
