@@ -42,7 +42,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
 
-![Task 2 Screenshot 3](screenshots/week2-task2-sc3.png)
+![Task 2 Screenshot 3](screenshots/week2-task2-sc3n.png)
 ---
 
 # Task 3 — Observe the Agentic Loop
@@ -55,13 +55,13 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-![Task 3 Screenshot 4](screenshots/week2-task3-sc4.png)
+![Task 3 Screenshot 4](screenshots/week2-task3-sc4n.png)
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-![Task 3 Screenshot 5](screenshots/week2-task3-sc5.png)
+![Task 3 Screenshot 5](screenshots/week2-task3-sc5n.png)
 
 ---
 
