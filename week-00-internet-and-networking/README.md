@@ -214,7 +214,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](VSCode.png)
+![VS Code Setup Screenshot](screenshots/VSCode.png)
 
 ---
 

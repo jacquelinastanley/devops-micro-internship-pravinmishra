@@ -22,7 +22,7 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 Add your screenshot here.
 
-
+![Task 1 Screenshot](screenshots/week2-task1-sc1.png)
 
 ---
 
