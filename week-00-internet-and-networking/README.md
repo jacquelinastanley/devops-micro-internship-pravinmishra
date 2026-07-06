@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![TaskScreenshot](screenshots\task_1.png)
+![TaskScreenshot](screenshots/task_1.png)
 
 ---
 
