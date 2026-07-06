@@ -20,7 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude response before CLAUDE.md
 
-Add your screenshot here.
+![Task 1 Screenshot 1](screenshots/week2-A2-task1-sc1.png)
 
 ---
 
@@ -34,7 +34,10 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — Auto-generated CLAUDE.md
 
-Add your screenshot here.
+![Task 2 Screenshot 2A](screenshots/week2-A2-task1-sc2A.png)
+![Task 2 Screenshot 2B](screenshots/week2-A2-task1-sc2B.png)
+![Task 2 Screenshot 2C](screenshots/week2-A2-task1-sc2C.png)
+![Task 2 Screenshot 2D](screenshots/week2-A2-task1-sc2D.png)
 
 ---
 
@@ -48,7 +51,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Customized CLAUDE.md (all 5 sections visible)
 
-Add your screenshot here.
+![Task 3 Screenshot 3](screenshots/week2-A2-task3-sc3.png)
 
 ---
 
@@ -62,13 +65,17 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude response with project-specific deployment details
 
-Add your screenshot here.
+![Task 4 Screenshot 4A](screenshots/week2-A2-task4-sc4A.png)
+
+![Task 4 Screenshot 4B](screenshots/week2-A2-task4-sc4B.png)
 
 ---
 
 #### Screenshot 5 — Claude response rejecting React/component change based on rules
 
-Add your screenshot here.
+![Task 5 Screenshot 5A](screenshots/week2-A2-task4-sc5A.png)
+
+![Task 5 Screenshot 5B](screenshots/week2-A2-task4-sc5B.png)
 
 ---
 
@@ -84,18 +91,18 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/jacquelinastanley/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 
 # Completion Checklist
 
-- [ ] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
-- [ ] Screenshot 2 shows `/init` generated CLAUDE.md
-- [ ] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
-- [ ] Screenshot 4 shows updated deployment-aware Claude response
-- [ ] Screenshot 5 shows Claude rejecting React request based on rules
-- [ ] CLAUDE.md is committed and visible in GitHub repository
+- [✅] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
+- [✅] Screenshot 2 shows `/init` generated CLAUDE.md
+- [✅] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
+- [✅] Screenshot 4 shows updated deployment-aware Claude response
+- [✅] Screenshot 5 shows Claude rejecting React request based on rules
+- [✅] CLAUDE.md is committed and visible in GitHub repository
 
 ---
 
