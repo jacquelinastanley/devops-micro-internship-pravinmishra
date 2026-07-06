@@ -43,6 +43,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 
 ![Task 2 Screenshot 3](screenshots/week2-task2-sc3n.png)
+
 ---
 
 # Task 3 — Observe the Agentic Loop
