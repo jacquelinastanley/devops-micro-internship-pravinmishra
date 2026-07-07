@@ -20,7 +20,8 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+![Task 1 Screenshot 1](screenshots/week2-A3-task1-sc1.png)
+
 
 ---
 
@@ -32,15 +33,23 @@ Place all required skill files into their correct directories and verify their c
 
 ### Evidence
 
+![Task 2 Screenshot 2A](screenshots/week2-A3-task2-sc2A.png)
+![Task 2 Screenshot 2B](screenshots/week2-A3-task2-sc2B.png)
+![Task 2 Screenshot 2C](screenshots/week2-A3-task2-sc2C.png)
+![Task 2 Screenshot 2D](screenshots/week2-A3-task2-sc2D.png)
+![Task 2 Screenshot 2E](screenshots/week2-A3-task2-sc2E.png)
+![Task 2 Screenshot 2F](screenshots/week2-A3-task2-sc2F.png)
+
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+![Task 2 Screenshot 2AA](screenshots/Task2-screenshot-3A.png)
+![Task 2 Screenshot 2BB](screenshots/Task2-screenshot-3B.png)
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![Task 2 Screenshot 3](screenshots/week2-A3-task2-sc3.png)
 
 ---
 
@@ -54,13 +63,15 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+![Task 2 Screenshot 4A](screenshots/week2-A3-task3-sc4A.png)
+![Task 2 Screenshot 4B](screenshots/week2-A3-task3-sc4B.png)
+
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
+![Task 2 Screenshot 5](screenshots/week2-A3-task3-sc5.png)
 
 ---
 
@@ -74,7 +85,8 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+![Task 2 Screenshot 6A](screenshots/Task4-SC6-1.png)
+![Task 2 Screenshot 6B](screenshots/Task4-SC6-2.png)
 
 ---
 
