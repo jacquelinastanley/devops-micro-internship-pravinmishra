@@ -20,7 +20,8 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-Add your screenshot here.
+![Task 1 Screenshot 1](screenshots/A6-T1.png)
+
 
 ---
 
@@ -34,7 +35,7 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+![Task 2 Screenshot 2](screenshots/A6-T2-S2.png)
 
 ---
 
@@ -48,7 +49,9 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+![Task 2 Screenshot 2](screenshots/A6-T3-S3.png)
+
+A6-T2-S2
 
 ---
 
@@ -62,7 +65,9 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+![Task 2 Screenshot 2](screenshots/A6-T4-S4.png)
+
+A6-T2-S2
 
 ---
 
@@ -76,7 +81,9 @@ Configure Claude Code permissions and connect the hook scripts created in the pr
 
 #### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
-Add your screenshot here.
+![Task 5 Screenshot 5](screenshots/A6-T1-S1.png)
+
+A6-T1-S1
 
 ---
 
@@ -90,6 +97,9 @@ Prove the prompt-level hook works by typing a destructive prompt and verifying i
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
+
+
+
 ---
 
 # Task 7 — Test the PreToolUse Hook
@@ -101,6 +111,8 @@ Prove the tool-level hook works by asking Claude to execute a dangerous Bash com
 ### Evidence
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
+
+
 
 ---
 
@@ -114,7 +126,11 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 #### Screenshot 8 — Claude running terraform validate successfully
 
+
+
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
+
+
 
 ---
 
