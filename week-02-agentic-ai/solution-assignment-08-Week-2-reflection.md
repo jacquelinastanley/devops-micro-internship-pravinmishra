@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://medium.com/@jacquelinastanley/pov-you-are-learning-claude-code-for-the-first-time-0c15b63ea2ac?sharedUserId=jacquelinastanley`
 
 ---
 
@@ -108,7 +108,9 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+I only posted about subagents this week 
+
+`https://www.linkedin.com/posts/jacquelinastanley_mastering-subagents-ugcPost-7480646263177236480-L4Tf/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 ---
 
@@ -124,15 +126,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
+* [✅] Blog written with required structure
+* [✅] Blog includes at least 2–3 Week 2 topics
+* [✅] Blog is publicly accessible
 * [ ] LinkedIn post created
 * [ ] Required P.S. line included
 * [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
+* [✅] Blog link added
 * [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅] Screenshots added to GitHub repo
 
 ---
 
