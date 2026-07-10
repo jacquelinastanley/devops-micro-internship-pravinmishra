@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Task 1 Screenshot 1](screenshots/blog.png)
 
 ---
 
