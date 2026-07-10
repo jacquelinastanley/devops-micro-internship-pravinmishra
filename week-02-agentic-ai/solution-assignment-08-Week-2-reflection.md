@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Task 1 Screenshot 1](screenshots/linkedin.png)
 
 ---
 
@@ -101,14 +101,46 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+" It is not working "
+
+I have said that more times this week than I would like to admit 😓 
+
+This week made me realize I need to slow down and replace frustration with a process.
+
+Firstly , instead of stopping at the error with panic , I'm going to start asking better questions.
+
+Here's my structure for asking questions :
+• The context.
+• What I already tried.
+• What I ruled out.
+• My current hypothesis.
+• Where the uncertainty starts.
+
+Thinking back if I had used this approach while working through the Claude Code assignments and asking my co-mentor Anjana Muthunayake questions maybe she would have appreciated the structure and shared her feedback and ideas with ease! 
+
+Secondly, I need to just take a moment and review everything before assuming it's gone wrong. 
+
+One example was getting the PreToolUse hook to work in Claude Code.
+The User Prompt Guard worked but The PreToolUse hook did not.
+
+Frustrated, I started changing random settings,reviewing the assignment question, checking my settings.json file, verifying the hook matcher, searching the debug log, and in the end the problem wasn't event a problem it was because I hadn't taken a moment to clearly see the output and verify it was correct. 
+
+The biggest lesson from this week was simple.
+
+The goal is not to find an answer faster.
+
+The goal is to understand the problem well enough so the answer becomes obvious.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/gDC2Ksn5 ).
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-I only posted about subagents this week 
+`https://www.linkedin.com/posts/jacquelinastanley_it-is-not-working-i-have-said-that-more-share-7481384957995569153-VtCj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
+
+I also posted about subagents 
 
 `https://www.linkedin.com/posts/jacquelinastanley_mastering-subagents-ugcPost-7480646263177236480-L4Tf/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
@@ -129,11 +161,11 @@ I only posted about subagents this week
 * [✅] Blog written with required structure
 * [✅] Blog includes at least 2–3 Week 2 topics
 * [✅] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
+* [✅] LinkedIn post created
+* [✅] Required P.S. line included
+* [✅] LinkedIn post content copied in submission field
 * [✅] Blog link added
-* [ ] LinkedIn post link added
+* [✅] LinkedIn post link added
 * [✅] Screenshots added to GitHub repo
 
 ---
