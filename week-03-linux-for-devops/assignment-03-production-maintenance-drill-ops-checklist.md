@@ -20,25 +20,27 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+
+![Screenshot1](screenshots/W3-A2-T8-S10.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![Screenshot2](screenshots/W3-A3-T1-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![Screenshot2](screenshots/W3-A3-T1-S3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+
+![Screenshot2](screenshots/W3-A3-T1-S4.png)
 
 ---
 
@@ -50,17 +52,52 @@ Answer the following in your own words:
 
 Write your answer here.
 
+Using command sudo ss -tlnp | grep ':80'
+
+![Screenshot2](screenshots/N1.png)
+
+- 0.0.0.0:80: Confirms it binds to all available IPv4 interfaces on port 80.
+
+- LISTEN: Confirms the socket status is actively listening.
+
+- nginx: Confirms the process name holding the socket is Nginx
+
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+sing command sudo ss -tuln | grep :22
+
+![Screenshot2](screenshots/N2.png)
+
+- 0 / 4096: The first number shows unread data waiting in the system pipeline. The second number is the maximum queue size.
+
+- LISTEN: The service is turned on and ready to accept visitors.
+
+- 0.0.0.0:22: This is the listening address for IPv4 connections. The zeros mean "listen on all network adapters."
+
+- [::]:22: This is the listening address for IPv6 connections. The double-colon represents "all adapters."
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No unexpected ports appear to be open. The only externally accessible services are SSH (22) for remote management and HTTP (80) served by Nginx, both of which are expected for a web server. The other ports are internal operating system services required for DNS resolution, networking, and time synchronization.
+
+The listening ports are:
+
+- 22/TCP – SSH
+  Used for remote administration of the EC2 instance.
+  Expected if you are connecting via SSH.
+- 80/TCP – Nginx (HTTP)
+  Used to serve your React application or web content.
+  Expected since Nginx is running.
+
+The remaining entries are standard system services:
+
+- 53 (UDP/TCP) – systemd-resolved (DNS resolver)
+- 68 (UDP) – systemd-networkd (DHCP client)
+- 323 (UDP) – chronyd (time synchronization)
 
 ---
 
@@ -74,19 +111,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![Screenshot1](screenshots/W3-A3-T2-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![Screenshot1](screenshots/W3-A3-T2-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![Screenshot1](screenshots/W3-A3-T2-S3.png)
 
 ---
 
@@ -96,7 +133,7 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+If Nginx fails to restart, your web server stops serving traffic. You will see 502 Bad Gateway error and the website will be down.
 
 ---
 
@@ -116,19 +153,21 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+
+![Screenshot1](screenshots/W3-A3-T3-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![Screenshot1](screenshots/W3-A3-T3-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+
+![Screenshot1](screenshots/W3-A3-T3-S3.png)
 
 ---
 
@@ -167,25 +206,27 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A3-T4-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A3-T4-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A3-T4-S3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A3-T4-S4.png)
 
 ---
 
@@ -215,19 +256,24 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+W3-A3-T5-S1
+
+![Screenshot](screenshots/W3-A3-T5-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+W3-A3-T5-S2
+
+![Screenshot](screenshots/W3-A3-T5-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A3-T5-S3.png)
 
 ---
 
@@ -251,19 +297,22 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A3-T6-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A3-T6-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A3-T6-S3.png)
 
 ---
 
@@ -299,13 +348,14 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A3-T7-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A3-T7-S2.png)
 
 ---
 
@@ -399,17 +449,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
-- [ ] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
-- [ ] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
-- [ ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
-- [ ] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
-- [ ] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
-- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
-- [ ] Task 8: Security & Reliability Notes answered
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [✅] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
+- [✅] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
+- [✅] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
+- [✅] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
+- [✅] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
+- [✅] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
+- [✅] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- [✅] Task 8: Security & Reliability Notes answered
+- [✅] LinkedIn post published and URL submitted
+- [✅] Full Name visible in all required screenshots
+- [✅] No sensitive data exposed
 
 ---
 

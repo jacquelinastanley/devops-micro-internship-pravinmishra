@@ -5,8 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 ![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F15-green?style=for-the-badge)
 
-> 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
-> Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
+> 👋 [Required links](./dmi_cohort3_resources.md)
 
 ---
 
@@ -49,7 +48,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#__** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#77** <!-- Update this each week -->
 
 ---
 
@@ -75,8 +74,9 @@ Week 01 → Success Mindset
 
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+ Week 02 → Agentic AI with Claude Code
+
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux for DevOps -->
 <!-- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) -->
@@ -136,8 +136,8 @@ Week 01 → Success Mindset
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed  | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_devops-basics-activity-7439312610807771136-QPdj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo)| [Medium Post](https://medium.com/@jacquelinastanley/how-devops-engineers-can-use-chatgpt-to-write-better-prompts-and-get-better-answers-c2baaf013ffb?sharedUserId=jacquelinastanley) |  |  |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_growthmindset-learninginpublic-careergrowth-share-7478455275834744834-a2Lg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/the-future-i-wrote-before-it-existed-ee70083dcf58?sharedUserId=jacquelinastanley) |
-| 02 | Agentic AI with Claude Code | 🔄 In Progres| 🔄 In Progres | 🔄 In Progres| ⏳ Pending |
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed| ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_it-is-not-working-i-have-said-that-more-share-7481384957995569153-VtCj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/pov-you-are-learning-claude-code-for-the-first-time-0c15b63ea2ac?sharedUserId=jacquelinastanley) |
+| 03 | Linux for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
