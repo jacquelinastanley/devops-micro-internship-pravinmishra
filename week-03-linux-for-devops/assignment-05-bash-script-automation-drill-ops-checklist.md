@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T1-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T1-S2.png)
 
 ---
 
@@ -62,19 +62,21 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T2-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A5-T2-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A5-T2-S2.png)
 
 ---
 
@@ -110,13 +112,15 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A5-T3-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A5-T3-S2.png)
 
 ---
 
@@ -152,13 +156,14 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T4-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A5-T4-S2.png)
 
 ---
 
@@ -200,13 +205,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T5-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T5-S2.png)
 
 ---
 
@@ -248,19 +253,21 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+W3-A5-T6-S1
+
+![Screenshot](screenshots/W3-A5-T6-S1.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T6-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T6-S3.png)
 
 ---
 
@@ -302,25 +309,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T7-S1.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T7-S2.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T7-S3.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T7-S4.png)
 
 ---
 
@@ -362,19 +369,20 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A5-T8-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T8-S2.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A5-T8-S3.png)
 
 ---
 
