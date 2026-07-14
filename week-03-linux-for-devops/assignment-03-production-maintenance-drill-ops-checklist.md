@@ -50,7 +50,7 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+In the sudo ss -tulpen output, the important proof is a line showing Nginx bound to port 80 with a listening socket on 0.0.0.0:80 or *:80. That means the web server is accepting HTTP connections on all interfaces, not just localhost.
 
 Using command sudo ss -tlnp | grep ':80'
 
@@ -65,6 +65,8 @@ Using command sudo ss -tlnp | grep ':80'
 ---
 
 **2. What proves SSH is active on port 22?**
+
+In the same ss output, a listening entry on port 22 with sshd or the SSH process name proves the SSH service is active and reachable. This confirms remote admin access is available on the standard SSH port.
 
 sing command sudo ss -tuln | grep :22
 
@@ -133,13 +135,13 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-If Nginx fails to restart, your web server stops serving traffic. You will see 502 Bad Gateway error and the website will be down.
+If Nginx fails to restart, your web server stops serving traffic. You will see 502 Bad Gateway error and the website will be down. Users may lose access to the site, and the application can appear completely down even if the server itself is still running. In production, this means a failed deployment or bad config can create immediate downtime
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+The basic rollback plan is to restore the last known good Nginx configuration, validate it with nginx -t, and restart the service only after the configuration passes. If the issue came from deployment files, restore the previous web root backup and verify the site again.
 
 ---
 
@@ -180,19 +182,30 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+No significant errors were found in the Nginx error log during the period you checked.
+
+The error.log only contains:
+
+2026/07/11 16:45:41 [notice] ... using inherited sockets from "5;6;"
+
+
+This is a notice, not an error. It simply indicates that Nginx reused existing sockets during a restart or reload, which is normal behavior.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+This does not prove the system is perfect or healthy continuously, it only means the service was healthy during that review period.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+The access log contains:
+
+47.84.97.104 ... "GET / HTTP/1.1" 200 644 "-" "curl/7.78.0"
+
+The request that returned is HTTP 200, confirming that the request successfully reached Nginx and was processed correctly at the web layer. Access logs are the simplest proof of real traffic flow because they record incoming HTTP requests.
 
 ---
 
@@ -236,13 +249,33 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+
+| Resource       | Command   | Current Status                                                                                  | Assessment                                                                                                                    |
+| -------------- | --------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **CPU / Load** | `uptime`  | Load average: **0.00, 0.00, 0.00**                                                              | ✅ No CPU pressure. The server is idle and not under processing load.                                                          |
+| **Memory**     | `free -h` | Total: **908 MiB**<br>Used: **404 MiB**<br>Available: **504 MiB**                               | ✅ Memory usage is healthy, with over half of the available RAM still free for applications.                                   |
+| **Disk**       | `df -h`   | Root (`/`): **61% used** (2.6 GB / 6.7 GB)<br>`/boot`: **18% used**<br>`/boot/efi`: **7% used** | ✅ Disk usage is the highest utilized resource but remains within a healthy range. There is sufficient free storage available. |
+
+
+Based on the current system status, disk usage is the resource closest to becoming constrained, with the root filesystem at 61% utilization. However, this is still within a healthy operating range. CPU load is 0.00 and over 500 MiB of memory remains available, indicating the server is not currently under resource pressure.
+
+| Directory              |       Size | Description                                                                                                                                                                           |
+| ---------------------- | ---------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/var/lib`             | **352 MB** | Stores application and system service data. Largest consumer of disk space under `/var`, which is normal.                                                                             |
+| `/var/cache`           | **150 MB** | Stores cached data to improve application and system performance.                                                                                                                     |
+| `/var/log`             |  **18 MB** | Stores system and application logs. Low usage indicates logs are not consuming significant disk space.                                                                                |
+| `/var/www`             | **1.2 MB** | Default location for web application files.                                                                                                                                           |
+| `/var/tmp`             |  **56 KB** | Stores temporary files that may persist between reboots.                                                                  
+                                          
+Most of the /var storage is used by application/system data (/var/lib), while log files (/var/log) occupy very little space, indicating log storage is not currently a concern.
+
+
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If disk reaches 100%, the server may be unable to write logs, save temporary files, update packages, or create new application files. That can cause application failures and make the entire system unreliable or unresponsive.In severe cases, the server may become unstable until disk space is freed.
 
 ---
 
@@ -283,7 +316,14 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+| Verification  Step        |       Evidence  |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Web Root Contents**      | `/var/www/html` contains the React build files: `index.html`, `asset-manifest.json`, `manifest.json`, `robots.txt`, `favicon.ico`, and the `static/` directory. |
+| **Deployment Marker**      | The deployed application contains the custom text **"Deployed by Jacquelina Shalinie Stanley"**, confirming the latest build was deployed.                      |
+| **Nginx Configuration**    | The Nginx configuration includes `try_files $uri /index.html;`, enabling React SPA client-side routing.                                                         |
+| **Deployment Status**      | React application files are present, the deployment marker is visible, and the Nginx configuration is correctly configured for serving the application.         |
+
+
 
 ---
 
@@ -322,19 +362,37 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The failure was caused by a missing closing brace } in /etc/nginx/sites-enabled/default, as shown by:
+
+```unexpected end of file, expecting "}" in /etc/nginx/sites-enabled/default:13```
+
+This means Nginx reached the end of the configuration file before the server block was properly closed.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+The configuration file was reopened and the missing closing brace was restored. After the correction, this command was run:
+
+`sudo nginx -t`
+
+The successful result confirmed that the configuration syntax was valid:
+
+```nginx: configuration file /etc/nginx/nginx.conf syntax is ok```
+
+```nginx: configuration file /etc/nginx/nginx.conf test is successful```
+
+A final curl -I request returned HTTP/1.1 200 OK, confirming that Nginx was serving the application successfully.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+Always validate Nginx configuration changes before restarting or reloading the service:
+
+`sudo nginx -t`
+
+automated syntax checks, staged deployments, and version-controlled configuration files and keeping a known-good backup also makes rollback faster when a configuration error occurs.
 
 ---
 
@@ -365,19 +423,33 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application failed because the original web root (/var/www/html) was moved to a backup location and replaced with an empty directory. As a result, Nginx was still running but had no React application files to serve, causing requests to return an HTTP/1.1 500 Internal Server Error.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+The application was restored by:
+
+1. Removing the empty /var/www/html directory.
+2. Moving the backup directory (/var/www/html_backup) back to /var/www/html.
+3. Verifying the application using:
+`curl -I http://54.221.135.112`
+
+The response returned HTTP/1.1 200 OK, confirming that the React application was successfully restored and served by Nginx.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To reduce the risk of accidental outages:
+
+- Avoid making manual changes directly to the production web root (/var/www/html).
+- Keep a backup of the deployed application so it can be restored quickly if needed.
+- Use automated deployment tools or CI/CD pipelines to deploy application updates consistently.
+- Test changes in a staging environment before applying them to production.
+- Verify the application after deployment using health checks or commands such as curl -I to ensure it is responding correctly.
+
 
 ---
 
@@ -393,31 +465,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH keys are stronger because they use cryptographic proof instead of a password that can be guessed, reused, or phished. They also support safer automation and reduce the risk of credential theft.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Every open port increases the attack surface, so leaving only the necessary ports open reduces exposure. For this assignment, HTTP and SSH are the expected essential ports.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+If Nginx is enabled on boot, the website comes back automatically after a restart or system reboot. That improves availability and prevents unnecessary downtime after maintenance or crashes.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Publicly exposed secrets can be abused immediately to access cloud resources, servers, or data. Once credentials leak, they should be treated as compromised and rotated quickly.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused cloud resources can continue generating cost and may also remain exposed to security risk. Shutting them down when not needed is a basic reliability and cost-control practice.
 
 ---
 
