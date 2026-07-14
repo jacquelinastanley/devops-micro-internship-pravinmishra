@@ -501,13 +501,13 @@ Unused cloud resources can continue generating cost and may also remain exposed 
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/jacquelinastanley_today-i-stepped-into-the-ops-side-of-devops-ugcPost-7482707815300485120-AI_S/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![SCREENSHOT](screenshots/LPA3.png)
 
 ---
 
