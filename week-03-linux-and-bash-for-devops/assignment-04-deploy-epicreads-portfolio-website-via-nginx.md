@@ -126,13 +126,13 @@ W3-A4-T5-S1
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/jacquelinastanley_it-deployed-pov-youve-been-troubleshooting-ugcPost-7483035553446252544-M_E0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+![Screenshot](screenshots/LPA4.png)
 
 ---
 
