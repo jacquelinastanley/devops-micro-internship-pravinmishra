@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+Nginx is running if the service status shows active (running) using commands like systemctl status nginx or systemctl is-active nginx
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+The server is listening for HTTP traffic if port 80 is in LISTEN state bound to :80. A successful curl -I http://localhost response or the Nginx default page in a browser also confirms HTTP is being served.
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+You capture a healthy baseline first so you know what “normal” looks like before introducing a fault. That gives you a reference point for comparing symptoms, spotting exactly what changed, and proving whether your simulation affected the expected layer or something else.
 
 ---
 
@@ -62,8 +62,9 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-W3-A6-T2-S1
-![Screenshot](screenshots/W3-A6-T1-S2.png)
+
+![Screenshot](screenshots/W3-A6-T2-S1.png)
+![Screenshot](screenshots/W3-A6-T2-S1A.png)
 
 ---
 
@@ -73,19 +74,23 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
+Claude should receive project-specific operational rules because they act as the project’s working contract to keep behavior consistent, reduce drift, and define what Claude should and should not do in that particular environment.
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
+The human must execute the recovery command because recovery is a judgment-heavy, high-impact action that should stay under human control rather than being automatically triggered by the model.
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
+The rule that prevents Claude from making an unsupported diagnosis is the one that says not to guess, speculate, or state a cause without evidence. It requires using the actual error or observed symptoms instead of inventing an explanation.
+
+The rule that prevents Claude from making an unsupported diagnosis is “Do not claim a root cause unless the report contains supporting evidence.” This forces the analysis to stay evidence-based and avoids guessing.
+
+The other relevant rule is “Use only the Bash report as the primary source of incident evidence,” which keeps the diagnosis grounded in the collected report rather than assumptions.
 
 ---
 
@@ -99,7 +104,8 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A6-T3-S1.png)
 
 ---
 
@@ -109,19 +115,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+The Gather phase is the evidence-collection part of the Agentic Loop by reading the Bash report, checking the  information about Nginx, port 80, the HTTP response, disk usage, and available memory for gathering the facts before any recovery step is considered.
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+Claude should not have created files since the task was strictly analysis-only, and I would verify that by checking the response for any file-creation actions by running `find . -maxdepth 4 -type f | sort` Based on the workflow rules provided, the correct behavior is to stay in read-only analysis and avoid writing code or changing files until explicitly approved.
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+Planning before coding is useful in DevOps automation because it reduces risky changes, keeps the scope clear, and helps you validate the approach before touching production-like systems. It also makes it easier to spot missing assumptions, define verification steps, and avoid unnecessary rework.
 
 ---
 
@@ -135,25 +141,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T4-S1.png)
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T4-S2.png)
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T4-S3.png)
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T4-S4.png)
 
 ---
 
@@ -163,31 +169,46 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
+The checks array stores the names of the health-check functions
+
+- check_service
+- check_port
+- check_http
+- check_disk
+- check_memory. 
+
+The script later uses those names to decide which checks to run.
 
 ---
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
+The for loop reads each item from that array and runs it as a command with "$check_function". In other words, it iterates through the list of function names and executes them one by one.
 
 ---
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
+The health checks are separated into functions to make the script easier to read, test, and maintain. Each function has one job, so you can update one check without affecting the others.
+
 
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
+$(...) is command substitution. It runs the command inside the parentheses and replaces the expression with that command’s output, such as when the script captures pwd, date, hostname, or curl output.
 
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
+The script uses different exit codes so other tools or humans can quickly tell the result from automation
+
+-  0 means healthy
+-  1 means warning
+-  2 means failure. 
+
+That makes it easier to integrate the script into monitoring, CI/CD, or incident-triage workflows.
 
 ---
 
@@ -201,13 +222,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T5-S1.png)
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T5-S2.png)
 
 ---
 
@@ -249,13 +270,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T6-S1.png)
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T6-S2.png)
 
 ---
 
@@ -297,19 +318,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T7-S1.png)
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T7-S2.png)
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T7-S3.png)
 
 ---
 
@@ -357,25 +378,27 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T8-S1.png)
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+![Screenshot](screenshots/W3-A6-T8-S2.png)
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+W3-A6-T8-S2
+![Screenshot](screenshots/W3-A6-T8-S2.png)
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+
+![Screenshot](screenshots/W3-A6-T8-S3.png)
 
 ---
 
