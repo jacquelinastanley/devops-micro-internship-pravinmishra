@@ -499,13 +499,13 @@ Together this structure makes the script modular, readable, and easy to maintain
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/jacquelinastanley_devops-linux-bashscripting-activity-7483409425857384448-FR2r?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Screenshot](screenshots/LPA5.png)
 
 ---
 
