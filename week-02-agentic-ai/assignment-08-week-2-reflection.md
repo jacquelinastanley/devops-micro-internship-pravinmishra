@@ -54,7 +54,11 @@ You can publish your blog on:
 
 Blog Link:
 
+<<<<<<< HEAD
 `https://medium.com/@jacquelinastanley/pov-you-are-learning-claude-code-for-the-first-time-0c15b63ea2ac?sharedUserId=jacquelinastanley`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -138,11 +142,15 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### LinkedIn Post Link:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/jacquelinastanley_it-is-not-working-i-have-said-that-more-share-7481384957995569153-VtCj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 I also posted about subagents 
 
 `https://www.linkedin.com/posts/jacquelinastanley_mastering-subagents-ugcPost-7480646263177236480-L4Tf/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

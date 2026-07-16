@@ -149,7 +149,11 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/jacquelinastanley_devops-cloudcomputing-linux-ugcPost-7482502018796871680-jmBU/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
