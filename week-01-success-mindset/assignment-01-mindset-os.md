@@ -426,11 +426,7 @@ Every weekday from 10:00 AM – 1:00 PM, I will complete one uninterrupted Deep 
 
 Paste your LinkedIn post link here:
 
-<<<<<<< HEAD
 `https://www.linkedin.com/posts/jacquelinastanley_growthmindset-learninginpublic-careergrowth-share-7478455275834744834-a2Lg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
