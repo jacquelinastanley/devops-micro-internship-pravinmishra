@@ -252,6 +252,8 @@ Paste your LinkedIn post URL here:
 
 [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_devops-basics-activity-7439312610807771136-QPdj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo)
 
+[Blog](https://medium.com/@jacquelinastanley/why-devops-engineers-need-to-understand-internet-networking-aa2a21c4de56?sharedUserId=jacquelinastanley)
+
 ---
 
 ## LinkedIn Post Backup Copy

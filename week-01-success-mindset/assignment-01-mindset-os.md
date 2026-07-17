@@ -185,16 +185,10 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 Paste your link here:
 
-<<<<<<< HEAD
  [LinkedIn]`https://www.linkedin.com/posts/jacquelinastanley_the-future-i-wrote-before-it-existed-share-7477710682667393025-vgbr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo` 
 
 [Medium]
 `https://medium.com/@jacquelinastanley/the-future-i-wrote-before-it-existed-ee70083dcf58?sharedUserId=jacquelinastanley`
-
-[Discord] `https://discord.com/channels/1401461014276472912/1467370418229739605/1521504605240954961`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

@@ -693,13 +693,11 @@ The AI did not make any changes to the system. It collected evidence, analyzed t
 
 **7. Agentic Loop Mapping**
 
-- Observe: Bash collected system evidence by checking the Nginx service, Port 80, HTTP response, disk usage, memory, and service logs.
-
-- Gather: Claude analyzed the health report, identified the root cause, and explained the failed checks.
-
-- Act: The human reviewed Claude's recommendation and manually restarted the Nginx service.
+- Gather: Claude analyzed the health report, identified the root cause, and explained the failed checks. Bash collected system evidence by checking the Nginx service, Port 80, HTTP response, disk usage, memory, and service logs.
 
 - Verify: The health-check script was run again to confirm that all five checks passed and the system had returned to a healthy state.
+
+- Act: The human reviewed Claude's recommendation and manually restarted the Nginx service.
 
 ---
 
