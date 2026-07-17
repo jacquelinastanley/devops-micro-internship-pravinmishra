@@ -100,11 +100,7 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD
 `https://github.com/jacquelinastanley/Ultimate-Agentic-DevOps-with-Claude-Code`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

@@ -102,11 +102,8 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD
 `https://github.com/jacquelinastanley/Ultimate-Agentic-DevOps-with-Claude-Code`
-=======
-`Add your URL here`
->>>>>>> upstream/main
+
 
 ## LinkedIn post URL
 
@@ -120,13 +117,13 @@ Paste your forked repository URL here:
 - [✅] `.claude/skills/` folder created with all 4 skill folders
 - [✅] All skill files placed correctly
 - [✅] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
-- [ ] `/scaffold-terraform` executed successfully
+- [✅] `/scaffold-terraform` executed successfully
 - [✅] Terraform files generated inside `terraform/` folder
 - [✅] `terraform init` executed successfully
-- [ ] `/tf-plan` executed and output analyzed by Claude
+- [✅] `/tf-plan` executed and output analyzed by Claude
 - [✅] All required screenshots added
 - [✅] GitHub repository URL included
-- [ ] LinkedIn post URL included
+- [✅] LinkedIn post URL included
 
 ---
 
