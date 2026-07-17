@@ -709,13 +709,13 @@ The AI did not make any changes to the system. It collected evidence, analyzed t
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/jacquelinastanley_tgif-claudecode-justforfun-ugcPost-7483790686870503425-q38k/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Screenshot](screenshots/LPA6.png)
 
 ---
 
@@ -723,7 +723,7 @@ Add your screenshot here.
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`Add your URL here`
+`https://github.com/jacquelinastanley/devops-micro-internship-pravinmishra`
 
 ---
 
