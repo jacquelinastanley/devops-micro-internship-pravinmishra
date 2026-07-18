@@ -20,13 +20,15 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+W4-A2-T1-S1
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
+W4-A2-T1-S1
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
@@ -40,7 +42,9 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+**
+W4-A2-T2-S1 
+![screenshot](screenshots/W4-A2-T2-S1.png)
 
 ---
 
@@ -54,7 +58,12 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+**
+W4-A2-T3-S1A 
+![screenshot](screenshots/W4-A2-T1-S1.png)
+
+W4-A2-T3-S1B
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
@@ -68,13 +77,17 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+**
+W4-A2-T4-S1
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+**
+W4-A2-T4-S1
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
@@ -88,13 +101,17 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+**
+W4-A2-T5-S1
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+**
+W4-A2-T5-S2
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
@@ -108,25 +125,41 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+**
+W4-A2-T6-S1A
+![screenshot](screenshots/W4-A2-T1-S1.png)
+
+**
+W4-A2-T6-S1B
+![screenshot](screenshots/W4-A2-T1-S1.png)
+
+**
+W4-A2-T6-S1C
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+**
+W4-A2-T6-S2
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+**
+W4-A2-T6-S3
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+**
+W4-A2-T6-S4
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
@@ -140,7 +173,9 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output showing Nginx `active (running)`
 
-Add your screenshot here.
+**
+W4-A2-T7-S1
+![screenshot](screenshots/W4-A2-T1-S1.png)
 
 ---
 
