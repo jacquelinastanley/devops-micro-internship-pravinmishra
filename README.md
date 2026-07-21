@@ -66,25 +66,12 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Currently earned stack :**
 
- Week 00 → Internet & Networking Basics
 
  [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
-
-Week 01 → Success Mindset
-
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
-
- Week 02 → Agentic AI with Claude Code - in progress according to leaderboard
-
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
-
-Week 03 → Linux & Bash for DevOps
-
-
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
-
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -137,7 +124,7 @@ Week 03 → Linux & Bash for DevOps
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_growthmindset-learninginpublic-careergrowth-share-7478455275834744834-a2Lg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/the-future-i-wrote-before-it-existed-ee70083dcf58?sharedUserId=jacquelinastanley) |
 | 02 | Agentic AI with Claude Code | ✅ Completed| ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_it-is-not-working-i-have-said-that-more-share-7481384957995569153-VtCj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/pov-you-are-learning-claude-code-for-the-first-time-0c15b63ea2ac?sharedUserId=jacquelinastanley) |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |[LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_tgif-claudecode-justforfun-ugcPost-7483790686870503425-q38k/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/building-ai-workflows-that-assists-devops-engineers-58c92224c017?sharedUserId=jacquelinastanley) |
-| 04 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
+| 04 | Git & GitHub | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_claudecode-dmibypravinmishra-git-share-7485400133547778048-7A0j/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/learning-git-without-breaking-everything-24197d361c19?sharedUserId=jacquelinastanley)|
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
