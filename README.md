@@ -27,8 +27,8 @@
 
 This is not a course. It is an internship-style program — real deployments, real pipelines, real evidence reviewed by mentors every week.
 
-- 🌐 Program Website: https://dmi.pravinmishra.com
-- 💬 Discord Community: https://discord.pravinmishra.com
+- 🌐 Program Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
 - 📺 YouTube: [Pravin Mishra](https://www.youtube.com/@awswithpravinmishra)
 - 🔗 Instructor: [LinkedIn](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 
@@ -67,7 +67,7 @@ This is not a course. It is an internship-style program — real deployments, re
 **Currently earned stack :**
 
 
- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
