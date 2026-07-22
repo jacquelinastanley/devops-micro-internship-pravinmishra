@@ -38,7 +38,7 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 The git. folder is  the hidden database that makes a directory a Git repository, it stores every commit, branch,pointer,tag, configuration and metadata Git needs to track and restore your project history. It metters because without it your working files are just ordinary files; deleting or losing .git removes all version history, branches, and the ability to use Git operations locally.
 
---
+----
 
 # Task 2 — Configure Git Identity Locally (Repository-Only)
 

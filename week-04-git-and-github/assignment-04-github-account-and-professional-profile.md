@@ -86,7 +86,7 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 Paste your GitHub profile URL here:
 
-`https://github.com/jacquelinastanley`
+[Github](https://github.com/jacquelinastanley)
 
 ---
 
