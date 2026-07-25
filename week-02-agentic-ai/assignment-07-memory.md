@@ -77,6 +77,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 ![Task 1 Screenshot 1](screenshots/T7-SC6.png)
 
+
 ---
 
 # Submission Instructions
