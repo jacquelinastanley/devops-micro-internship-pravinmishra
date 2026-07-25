@@ -27,8 +27,6 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 
 ![TaskScreenshot](screenshots/task_1.png)
 
-<img width="284" height="410" alt="LPS1" src="https://github.com/user-attachments/assets/a8ee5228-6eb4-481b-90c8-fec31776d57d" />
-
 ---
 
 ## What I Learned (2–3 lines)
