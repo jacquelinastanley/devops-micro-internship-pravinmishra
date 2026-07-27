@@ -42,7 +42,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Award | Post |
 |------|-------|------|
-| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [LinkedIn Post](#) --> |
+|  Week 03 | 🏆 Champion of the Week | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_championoftheweek-dmibypravinmishra-devops-share-7487009206760300545-tB6T/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) |
 
 ### Leaderboard
 
