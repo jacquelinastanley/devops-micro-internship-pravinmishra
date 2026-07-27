@@ -67,25 +67,11 @@ This is not a course. It is an internship-style program — real deployments, re
 **Currently earned stack :**
 
 
-<<<<<<< HEAD
 [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
-=======
-<!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
-
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
-
-<!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
-
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
->>>>>>> c66f425 (Fix stale resource links and add Discord/blog links with UTM tracking)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
