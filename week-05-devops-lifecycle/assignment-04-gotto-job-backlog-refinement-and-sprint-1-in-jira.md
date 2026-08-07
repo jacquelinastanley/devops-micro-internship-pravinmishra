@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T1-S1.png) 
 
 ---
 
@@ -28,7 +28,16 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+Team Mode  
+
+| Role  | Explaination | Team Member Name |
+|------|-------|------|
+|Scrum Masters|  maintained the 90-minute time box, followed the Scrum workflow, documented the Sprint Goal, and ensured that the backlog and sprint remained transparent.|Jacquelina Shalinie Stanley , Rohan Kumar Das , Aziz Olaide Kafayat, Nebeolisa Chiemelie Kelvin , Oluwabunmi Olowoyeye|
+|Product Owner|prioritised the backlog based on customer visibility, usability, trust, and the effort required to deliver each improvement.|Jacquelina Shalinie Stanley|
+|Dev Lead 1 |reviewed the Gotto Job source code and implemented a small UI-only improvement without making backend changes for story 7 and 8 |Aziz Olaide Kafayat|
+|Dev Lead 2 |reviewed the Gotto Job source code and implemented a small UI-only improvement without making backend changes for story 1, 2 and 3|Nebeolisa Chiemelie Kelvin|
+|Dev Lead 3 |reviewed the Gotto Job source code and implemented a small UI-only improvement without making backend changes for story 4, 5 and 6 |Oluwabunmi Olowoyeye|
+|DevOps Lead|committed the change with Git, deployed it to a live environment, verified the result, and recorded deployment evidence.|Rohan Kumar Das|
 
 ---
 
@@ -42,7 +51,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T2-S2.png) 
 
 ---
 
@@ -56,7 +65,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T3-S3.png) 
 
 ---
 
@@ -70,13 +79,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T4-S4.png) 
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T4-S5.png)
 
 ---
 
@@ -90,7 +99,9 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T5-S6A.png) 
+![screenshots](screenshots/W5-A4-T5-S6B.png) 
+![screenshots](screenshots/W5-A4-T5-S6C.png)
 
 ---
 
@@ -98,7 +109,23 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+| Story       | Final Estimate  | Reason                                                                                                                                                                                                                             |
+| --------------- | ------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Story 1** |          **2** | Estimated as **2** because it involves implementing a small feature with some testing and verification. A brief discussion considered whether it was a 1 or 2, but the team agreed the extra validation justified a 2.             |
+| **Story 2** |          **2** | Estimated as **2** because it requires moderate development effort and testing. There was some debate between a 1 and 2, but the additional implementation work made 2 the more suitable estimate.                                 |
+| **Story 3** |          **1** | Estimated as **1** because it is a straightforward, low-complexity task with minimal implementation effort. Most participants agreed it could be completed quickly without significant risk.                                       |
+| **Story 4** |          **2** | Estimated as **2** because it requires updates across multiple components and verification after implementation. The team agreed it was more than a simple change but not complex enough for a higher estimate.                    |
+| **Story 5** |          **2** | Estimated as **2** because it combines implementation and testing, requiring moderate effort. The discussion concluded that it involved more work than a simple one-point task.                                                    |
+| **Story 6** |          **3** | Estimated as **3** because it includes implementation, deployment, and validation activities, making it the most complex story in the sprint. The team agreed the additional coordination and testing justified a higher estimate. |
+| **Story 7** |          **2** | Estimated as **2** because it requires implementing a feature and confirming it works correctly after deployment. There was minor discussion, but the moderate amount of work supported the estimate.                              |
+| **Story 8** |          **2** | Estimated as **2** because it involves implementation and final verification before completion. The team agreed it required more effort than a quick change but remained manageable within the sprint.                             |
+
+## Reflection
+
+Planning Poker encouraged discussion before development began and helped the team reach a shared understanding of each story's complexity. Even when there were different initial estimates, the conversation focused on implementation effort, testing, deployment, and uncertainty, leading to estimates that reflected the expected work rather than individual opinions.
+
+---
+
 
 ---
 
@@ -112,13 +139,14 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T6-S7A.png) 
+![screenshots](screenshots/W5-A4-T6-S7B.png) 
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T6-S8.png) 
 
 ---
 
@@ -132,7 +160,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T7-S9.png) 
 
 ---
 
@@ -146,19 +174,19 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T8-S10.png)  
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T8-S11.png) 
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T8-S12.png) 
 
 ---
 
@@ -172,7 +200,8 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A4-T9-S13A.png)  
+![screenshots](screenshots/W5-A4-T9-S13B.png)  
 
 ---
 

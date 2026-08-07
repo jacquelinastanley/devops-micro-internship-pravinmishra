@@ -146,19 +146,19 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A3-T6-S15.png) 
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A3-T6-S16.png) 
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-![screenshots](screenshots/)
+![screenshots](screenshots/W5-A3-T4-S11.png) 
 
 ---
 
@@ -166,7 +166,7 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 Paste your unlisted YouTube or accessible Google Drive demo-video link here:
 
-`Add your URL here`
+`https://www.loom.com/share/4d6608b1118c42fc935674c5a62c0d3d`
 
 ---
 
@@ -182,13 +182,13 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/jacquelinastanley_jira-git-aws-share-7491354484623921153-a0IP/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 ---
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-![screenshots](screenshots/)
+![screenshots](screenshots/LIPS1.png) 
 
 ---
 
