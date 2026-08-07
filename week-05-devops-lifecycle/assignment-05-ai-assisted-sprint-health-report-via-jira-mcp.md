@@ -26,7 +26,7 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 Why does the MCP server need your site URL and account email in addition to the token?
 
-Add your answer here
+The Jira MCP server needs the site URL to identify the specific Jira Cloud instance it should connect to, while my Atlassian email identifies the account being authenticated. The API token acts as the authentication secret. Together, the URL, username/email and token allow the MCP server to authenticate with the correct Jira site and retrieve data on behalf of the authorized account.
 
 ---
 
@@ -46,7 +46,7 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 Compare this jira block to the github block from Week 2 Assignment 5. The GitHub server ran via npx (a Node.js package); this one runs via uvx (a Python package) — what stays exactly the same shape despite that difference, and why doesn't Claude Code care which language a given MCP server is written in?
 
-Add your answer here
+The Jira and GitHub MCP configurations follow the same mcpServers structure. Each server has a server name, a command, arguments and configuration for its runtime. The main difference is that GitHub MCP uses npx to launch a Node.js package, while Jira MCP uses uvx to launch a Python package. Claude Code does not need to know the implementation language because both servers communicate through the standardized Model Context Protocol. Claude interacts with the MCP interface rather than the server's internal programming language.
 
 ---
 
@@ -66,7 +66,9 @@ Add your Jira site URL, account email, and API token to `.claude/settings.local.
 
 Why must JIRA_API_TOKEN live in settings.local.json and never in .mcp.json?
 
-Add your answer here
+JIRA_API_TOKEN must be stored in settings.local.json because it is a sensitive authentication credential. The local settings file is excluded from Git through .gitignore, preventing the token from being committed or exposed on GitHub. .mcp.json, by comparison, is intended to describe the MCP server configuration and can be committed, so secrets should never be stored there.
+
+
 
 ---
 
@@ -100,7 +102,7 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 How did you confirm this was real board data and not something Claude guessed?
 
-Add your answer here
+I confirmed the information was live Jira data by comparing the issue keys, summaries, statuses, assignees and story-point values returned by Claude Code with the active sprint displayed on my Jira board. The information matched the current board state, confirming that Claude retrieved the data through the Jira MCP rather than generating or assuming it.
 
 ---
 
@@ -124,11 +126,11 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 1. Which Jira MCP tools does this skill's allowed-tools list include, and which mutating tools (create issue, update issue, transition issue, add comment) does it deliberately exclude?
 
-Add your answer here
+The skill permits mcp__jira__jira_search, mcp__jira__jira_get_issue, mcp__jira__jira_get_sprint, mcp__jira__jira_get_board, and Read. These tools allow the skill to retrieve and analyze sprint information. It deliberately excludes tools that create issues, update issues, transition issues or add comments, and it also excludes Write. Therefore, /sprint-health can observe and report on the Jira board but cannot modify it.
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-Add your answer here
+The Scrum Master is responsible for maintaining transparency, accountability and the integrity of the Scrum process. Allowing an AI assistant to silently move, edit or close tickets would make it unclear whether a board change came from a team member or the automated assistant. Restricting the skill to read-only operations allows AI to support analysis while keeping decisions and changes under human control.
 
 ---
 
@@ -148,7 +150,10 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 Map this assignment to Gather → Analyze → Human Act → Verify from Week 3 Assignment 6. Which step did you perform manually in the browser, and why must that step stay human?
 
-Add your answer here
+Gather: /sprint-health retrieved the active sprint and issue data through the Jira MCP read-only tools.
+Analyze: Claude evaluated sprint velocity, at-risk stories and missing estimates or acceptance criteria.
+Human Act: I manually changed the Jira issue in the browser. This step must remain human because ticket changes affect the team's shared source of truth and require accountable human decision-making.
+Verify: I ran /sprint-health again and confirmed that the updated Jira state appeared in the new report without Claude creating or modifying any issue itself.
 
 ---
 
