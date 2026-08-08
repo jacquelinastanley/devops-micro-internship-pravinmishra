@@ -20,7 +20,7 @@ Download or clone the portfolio website template from GitHub and confirm `index.
 
 #### Screenshot 1 — File Explorer or terminal showing the template folder contents with `index.html` visible
 
-Add your screenshot here.
+![screenshot](screenshots/)
 
 ---
 
