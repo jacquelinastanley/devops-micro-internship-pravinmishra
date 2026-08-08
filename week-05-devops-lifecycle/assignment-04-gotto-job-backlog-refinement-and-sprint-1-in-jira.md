@@ -217,13 +217,13 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/jacquelinastanley_devops-scrum-jira-share-7491764010447470592-iBr1/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-![screenshots](screenshots/)
+![screenshots](screenshots/LIPS2.png)
 
 ---
 
