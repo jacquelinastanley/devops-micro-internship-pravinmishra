@@ -30,13 +30,13 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![screenshot](screenshots/W7-A1-T2-S1.png) 
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![screenshot](screenshots/W7-A1-T2-S2.png) 
 
 ---
 
@@ -44,7 +44,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure Virtual Network, Azure Storage, and Azure App Service first because they provide useful hands-on experience while allowing me to work within Azure’s free-tier limits. These services will help me understand cloud networking, data storage, and application hosting without immediately relying on more costly resources. I will also monitor my usage carefully to avoid exceeding the free-tier allowances.
 
 ---
 
@@ -57,12 +57,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [✅] Azure Free Account created with identity, phone, and payment verification completed
+- [✅] Microsoft Agreement and Offer Terms accepted
+- [✅] Azure Portal accessed successfully (Screenshot 1)
+- [✅] Free Trial subscription confirmed (Screenshot 2)
+- [✅] Reflection paragraph written (Notes)
+- [✅] No sensitive information exposed
 
 ---
 

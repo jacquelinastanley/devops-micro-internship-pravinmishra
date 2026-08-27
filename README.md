@@ -119,8 +119,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |[LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_tgif-claudecode-justforfun-ugcPost-7483790686870503425-q38k/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/building-ai-workflows-that-assists-devops-engineers-58c92224c017?sharedUserId=jacquelinastanley) |
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_claudecode-dmibypravinmishra-git-share-7485400133547778048-7A0j/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/learning-git-without-breaking-everything-24197d361c19?sharedUserId=jacquelinastanley)|
 | 05 | DevOps Lifecycle & Agile | ✅ Completed  | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/jacquelinastanley_devops-scrum-jira-share-7491764010447470592-iBr1/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo) | [Medium Post](https://medium.com/@jacquelinastanley/from-backlog-to-deployment-what-i-learned-working-in-a-5-person-scrum-team-for-3-days-9e066b64361d?sharedUserId=jacquelinastanley) |
-| 06 | AWS Cloud | 🔄 In Progress | ⏳ Pending | — | — |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | 🔄 In Progress | ⏳ Pending | [LinkedIn Post](https://lnkd.in/p/g_S3bAHE) | [Medium Post](https://medium.com/@jacquelinastanley/building-a-highly-available-two-tier-application-on-aws-what-worked-what-broke-and-what-i-5d5b40f9700c?sharedUserId=jacquelinastanley) |
+| 07 | Azure Cloud | 🔄 In Progress | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
