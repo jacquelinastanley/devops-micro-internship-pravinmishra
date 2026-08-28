@@ -20,8 +20,7 @@ Create the Azure Resource Group `react-app-rg` in a region close to you.
 
 #### Screenshot 1 — Resource Group overview showing the name and region
 
-![screenshot](screenshots/W7-A2-T1-S1.png
-) 
+![screenshot](screenshots/W7-A2-T1-S1.png) 
 ---
 
 # Task 2 — Provision Ubuntu VM (20.04) with Correct Networking
