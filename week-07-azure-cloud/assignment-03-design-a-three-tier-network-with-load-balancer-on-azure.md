@@ -20,7 +20,7 @@ Create `eb-demo-vnet` (10.0.0.0/16) with `web-subnet` (10.0.1.0/24), `app-subnet
 
 #### Screenshot 1 — Subnet configuration screen showing the three subnets and Bastion subnet (if enabled)
 
-![screenshot](screenshots/W7-A3-T1-S1.png ) 
+![screenshot](screenshots/W7-A3-T1-S1.png) 
 
 ---
 
