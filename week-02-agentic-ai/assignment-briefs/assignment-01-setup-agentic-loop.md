@@ -29,6 +29,7 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 - Fork and clone the course starter repository
 - Observe the three phases of the Agentic Loop: Gather, Act, Verify
 - Understand how Claude Code differs from Claude chat
+- Share your first Agentic AI achievement with your professional network
 
 ---
 
@@ -197,7 +198,11 @@ Full solution walkthrough → [Click here](../assignment-solutions/assignment-01
 
 ## 11. LinkedIn Requirement
 
-Not required for this assignment.
+Required for this assignment.
+
+Follow the instructions in **Task 4**, copy and paste the provided content, keep your automatically generated DMI Leaderboard progress link, and publish the post on LinkedIn.
+
+No additional screenshot is required.
 
 ---
 
@@ -209,5 +214,6 @@ Before submission, verify:
 - [ ] Starter repo forked and cloned
 - [ ] All 5 screenshots captured and added to your GitHub Repository file
 - [ ] GitHub repo URL included
+- [ ] First Agentic AI achievement shared on LinkedIn using the provided content
 
 ---
