@@ -1,6 +1,6 @@
 # Assignment 5 — Deploy EpicBook Web App on Azure VM with Azure Database for MySQL
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -183,4 +183,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-_This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track._
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
