@@ -6,10 +6,13 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
-**Cloud Platform:** AWS or Azure  
-**GitHub Repository URL:** Add your repository URL here  
-**Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
+**Full Name:** Jacquelina Shalinie Stanley
+
+**Cloud Platform:** AWS
+
+**GitHub Repository URL:** [Github URL](https://github.com/jacquelinastanley/book-review-capstone)
+
+**Public Application URL / Load-Balancer DNS:** http://bookrev-public-alb-729052263.us-east-1.elb.amazonaws.com/book/1
 
 ---
 
@@ -31,7 +34,7 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T0-S1.png)
 
 ---
 
@@ -39,7 +42,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T0-S2.png)
 
 ---
 
@@ -47,7 +50,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T0-S3.png).
 
 ---
 
@@ -55,7 +58,7 @@ Add your screenshot here.
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T0-S4.png)
 
 ---
 
@@ -63,7 +66,7 @@ Add your screenshot here.
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T0-S5.png)
 
 ---
 
@@ -90,7 +93,7 @@ The diagram must show:
 
 ## Architecture Diagram
 
-Add the completed architecture diagram here.
+![alt text](screenshots/W8-A5-T1-S1.png)
 
 ---
 
@@ -106,7 +109,7 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T2-S6.png)
 
 ---
 
@@ -114,7 +117,7 @@ Add your screenshot here.
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T2-S7.png)
 
 ---
 
@@ -122,7 +125,8 @@ Add your screenshot here.
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T2-S8A.png)
+![alt text](screenshots/W8-A5-T2-S8B.png)
 
 ---
 
@@ -138,7 +142,7 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+![alt text](image-32.png) screenshots/W8-A5-T3-S9
 
 ---
 
@@ -146,7 +150,8 @@ Add your screenshot here.
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+![alt text](image-33.png) screenshots/W8-A5-T3-S10A
+![alt text](image-34.png) screenshots/W8-A5-T3-S10B
 
 ---
 
@@ -154,7 +159,8 @@ Add your screenshot here.
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+![alt text](image-35.png) screenshots/W8-A5-T3-S11A
+![alt text](image-36.png) screenshots/W8-A5-T3-S11B
 
 ---
 
@@ -162,7 +168,7 @@ Add your screenshot here.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
+![alt text](image-17.png) screenshots/W8-A5-T3-S12
 
 ---
 
@@ -178,7 +184,7 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
+![alt text](image-37.png) screenshots/W8-A5-T4-S13
 
 ---
 
@@ -186,7 +192,13 @@ Add your screenshot here.
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
+![alt text](image-38.png) screenshots/W8-A5-T4-S14
+
+The Terraform production design supports RDS Multi-AZ through enable_multi_az = true. The live deployment used Single-AZ because the AWS Free Tier account imposed deployment restrictions.
+
+Production Terraform configuration supports RDS Multi-AZ. Multi-AZ was disabled for the live Free Tier-compatible deployment due to account constraints.
+
+AWS Free Tier deployment constraint: The production Terraform configuration implements RDS Multi-AZ and a MySQL read replica. These features were disabled through environment feature flags for the live Free Tier deployment. The submitted production Terraform plan demonstrates the intended high-availability configuration without applying billable/restricted resources.
 
 ---
 
@@ -194,7 +206,9 @@ Add your screenshot here.
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
+![alt text](image-39.png) screenshots/W8-A5-T4-S15
+
+The production Terraform design provisions a MySQL read replica. Replica deployment was disabled in the live Free Tier-compatible environment.
 
 ---
 
@@ -202,7 +216,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
+![alt text](image-40.png) screenshots/W8-A5-T4-S16
 
 ---
 
@@ -218,7 +232,7 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
+![alt text](screenshots/W8-A5-T5-S17.png)
 
 ---
 
@@ -226,7 +240,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
+![alt text](image-13.png) screenshots/W8-A5-T5-S18
 
 ---
 
@@ -234,7 +248,8 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+![alt text](image-14.png) screenshots/W8-A5-T5-S19A
+![alt text](image-16.png) screenshots/W8-A5-T5-S19B
 
 ---
 
@@ -250,7 +265,7 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-Add your screenshot here.
+![alt text](image-18.png) screenshots/W8-A5-T6-S20
 
 ---
 
@@ -258,7 +273,8 @@ Add your screenshot here.
 
 Add a screenshot showing successful login or authentication.
 
-Add your screenshot here.
+![alt text](image-19.png) screenshots/W8-A5-T6-S21A
+![alt text](image-20.png) screenshots/W8-A5-T6-S21B
 
 ---
 
@@ -266,7 +282,7 @@ Add your screenshot here.
 
 Add a screenshot showing the book listing or book details.
 
-Add your screenshot here.
+![alt text](image-21.png) screenshots/W8-A5-T6-S22
 
 ---
 
@@ -274,7 +290,7 @@ Add your screenshot here.
 
 Add a screenshot showing the review functionality working successfully.
 
-Add your screenshot here.
+![alt text](image-22.png) screenshots/W8-A5-T6-S23
 
 ---
 
@@ -282,7 +298,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the backend or API is working successfully.
 
-Add your screenshot here.
+![alt text](image-24.png) screenshots/W8-A5-T6-S24
 
 ---
 
@@ -290,11 +306,11 @@ Add your screenshot here.
 
 Add a screenshot showing successful database reads and writes.
 
-Add your screenshot here.
+![alt text](image-25.png) screenshots/W8-A5-T6-S25
 
 ## Public Application URL
 
-**Public Application URL / DNS:** Add the working public application URL or load-balancer DNS here
+**Public Application URL / DNS:** http://bookrev-public-alb-729052263.us-east-1.elb.amazonaws.com/book/1
 
 ---
 
@@ -312,7 +328,11 @@ You do not need to submit your complete Claude Code conversation history. Includ
 
 Add a screenshot showing one useful example of AI-assisted Terraform generation or improvement.
 
-Add your screenshot here.
+![alt text](image.png) screenshots/W8-A5-T7-S26A
+![alt text](image-1.png) screenshots/W8-A5-T7-S26B
+![alt text](image-7.png) screenshots/W8-A5-T7-S26C
+![alt text](image-8.png) screenshots/W8-A5-T7-S26D
+![alt text](image-9.png) screenshots/W8-A5-T7-S26E
 
 ---
 
@@ -320,7 +340,12 @@ Add your screenshot here.
 
 Add a screenshot showing one structured architecture or security review result.
 
-Add your screenshot here.
+![alt text](image-5.png) screenshots/W8-A5-T7-S27A
+![alt text](image-6.png) screenshots/W8-A5-T7-S27B
+![alt text](image-2.png) screenshots/W8-A5-T7-S27C
+![alt text](image-10.png) screenshots/W8-A5-T7-S27D
+![alt text](image-11.png) screenshots/W8-A5-T7-S27E
+![alt text](image-12.png) screenshots/W8-A5-T7-S27F
 
 ---
 
@@ -328,7 +353,8 @@ Add your screenshot here.
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-Add your screenshot here.
+![alt text](image-3.png) screenshots/W8-A5-T7-S28A
+![alt text](image-4.png) screenshots/W8-A5-T7-S28B
 
 ---
 
@@ -355,6 +381,8 @@ Confirm that the final review covers:
 
 Use Screenshot 27 as the focused evidence for the structured architecture or security review.
 
+![alt text](image-41.png) screenshots/W8-A5-T7-S27C
+
 ---
 
 # Task 9 — Answer the Reflection Questions
@@ -367,67 +395,67 @@ Reflect on the architecture, Terraform implementation, and Agentic AI workflow. 
 
 ### 1. Why did you separate the Web, Application, and Database tiers?
 
-Write your answer here.
+I separated the three tiers so that each layer has a clear responsibility and different security boundary. The Web tier handles public requests, the Application tier runs the Node.js/Express backend privately, and the Database tier stores the application data. This reduces unnecessary exposure and makes the architecture easier to secure and manage.
 
 ### 2. Why is the Application Tier private?
 
-Write your answer here.
+The Application tier does not need to accept direct traffic from the internet. In my architecture, users reach the public ALB first, then the Web tier sends API traffic through the internal ALB to the backend on port 3001. Keeping the App EC2 instances private reduces the attack surface while still allowing outbound access through NAT when packages or dependencies are required.
 
 ### 3. Why is MySQL private?
 
-Write your answer here.
+MySQL contains the application data, so there is no reason for it to be directly accessible from the internet. I deployed RDS with public accessibility disabled and allowed port 3306 only from the Application tier security group. This means database communication must follow the intended application path.
 
 ### 4. Why are multiple Availability Zones used?
 
-Write your answer here.
+I distributed the Web, Application, and Database subnets across us-east-1a and us-east-1b so that the architecture does not depend on a single Availability Zone. The two Web instances and two App instances can also be load balanced across the two AZs, which improves resilience if one instance or availability location experiences a problem.
 
 ### 5. What is the difference between Multi-AZ/high availability and a read replica?
 
-Write your answer here.
+Multi-AZ is mainly for database availability and failover. The standby database is synchronously replicated and is used if the primary database fails. A read replica is mainly used to scale read traffic and normally has its own endpoint, with asynchronous replication from the primary. My production Terraform design supports both, although the live deployment had them disabled because of the AWS Free Tier account constraints.
 
 ## Terraform
 
 ### 6. How did you divide your Terraform into modules?
 
-Write your answer here.
+I separated the Terraform configuration by responsibility. I created modules for network, security, load-balancer, compute, and database. The root module connects these components together. This made the project easier to understand, review, troubleshoot, and maintain than placing all resources inside one large Terraform file.
 
 ### 7. How do the modules communicate through variables and outputs?
 
-Write your answer here.
+Modules expose information through outputs, and the root module passes those values into other modules as variables. For example, the network module provides subnet and VPC information, which is then passed to the compute, security, load-balancer, and database modules. Security Group IDs are also passed between modules so that access can be restricted using security-group references rather than broad CIDR rules.
 
 ### 8. What did you specifically check in `terraform plan`?
 
-Write your answer here.
+I checked the resource counts, unexpected changes, replacements, deletions, subnet placement, public/private configuration, security rules, load balancers, and database settings. I also checked that ports 3001 and 3306 were not publicly exposed. Before applying, I used the Terraform Engineer and Architecture and Security Reviewer to inspect the plan, but I still made the final decision myself before running terraform apply.
 
 ## Agentic AI
 
 ### 9. What was the purpose of `CLAUDE.md`?
 
-Write your answer here.
+CLAUDE.md provided the project-specific rules and architecture context for Claude Code. It described the three-tier design, subnet structure, required security boundaries, ports, Terraform modularity, secret-handling requirements, and the rule that infrastructure-changing operations such as terraform apply and terraform destroy must remain under human control.
 
 ### 10. What work did the Terraform Engineer subagent perform?
 
-Write your answer here.
+The Terraform Engineer helped review the Terraform structure, module relationships, networking, security rules, compute resources, load balancers, and database configuration. One important issue it identified was that the App security group needed explicit outbound MySQL access to the RDS security group on port 3306. I reviewed that recommendation before updating the configuration.
 
 ### 11. What did the Architecture and Security Reviewer identify?
 
-Write your answer here.
+The reviewer confirmed that the main security model was correct: the Web tier was public, the Application tier was private, the database was private, port 3001 was not exposed publicly, and MySQL 3306 was restricted to the App tier. It also identified warnings such as the absence of HTTPS, local Terraform state, database protection settings, operational costs, and the backend configuration that still needed to be completed before application testing.
 
 ### 12. Why did you use Terraform MCP instead of relying only on Claude's existing Terraform knowledge?
 
-Write your answer here.
+I used Terraform MCP so that Claude Code could reference current Terraform provider and resource documentation instead of depending only on previously learned information. Terraform providers and resource arguments can change, so using the official documentation gave me more confidence that the configuration followed the current provider behaviour and recommended syntax.
 
 ### 13. What was the purpose of your validation hooks?
 
-Write your answer here.
+The validation hooks provided deterministic checks whenever Terraform was changed. They helped ensure formatting and validation problems were caught using commands such as terraform fmt and terraform validate. I treated these automated checks differently from AI recommendations because the hooks provide repeatable rule-based validation, while AI was used more for analysis and engineering judgment.
 
 ### 14. Describe one real issue Claude helped you troubleshoot.
 
-Write your answer here.
+One major issue occurred when the private App EC2 instances failed during cloud-init. Package installation timed out because the instances attempted their bootstrap before the NAT routing path was fully usable. We examined the cloud-init logs, confirmed that outbound connectivity later worked, reran the required bootstrap steps, configured the backend environment securely, and started the Node.js service. Both App instances eventually became healthy behind the internal target group and successfully connected to RDS.
 
 ### 15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly.
 
-Write your answer here.
+I did not blindly enable every production database option when my AWS account could not support it. The production design called for Multi-AZ, a read replica, and longer backup retention, but the live AWS Free Tier account returned restrictions during deployment. Instead of pretending those resources existed or repeatedly applying an incompatible configuration, I kept Multi-AZ and the read replica enabled in the production example while disabling them for the live environment and reducing the backup retention to a supported value. This showed me that AI recommendations still need to be checked against the real environment, account limits, cost, and deployment evidence.
 
 ---
 
@@ -441,7 +469,7 @@ Write the post in your own words, include at least one project image or other pr
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:** https://lnkd.in/p/eDsJ7Ghk
 
 ---
 
@@ -464,61 +492,61 @@ Write the post in your own words, include at least one project image or other pr
 
 # Completion Checklist
 
-- [ ] Selected AWS or Azure
-- [ ] Added and reviewed the Agentic AI starter files
-- [ ] Configured `CLAUDE.md`
-- [ ] Configured the Terraform Engineer subagent
-- [ ] Configured the Architecture and Security Reviewer subagent
-- [ ] Connected Terraform MCP
-- [ ] Configured validation hooks and safety guardrails
-- [ ] Created the architecture diagram
-- [ ] Created the six-subnet design
-- [ ] Configured public Web Tier routing
-- [ ] Kept the Application Tier private
-- [ ] Kept the Database Tier private
-- [ ] Configured tier-specific Security Groups or NSGs
-- [ ] Restricted backend port `3001`
-- [ ] Restricted MySQL port `3306` to the Application Tier
-- [ ] Created the public load balancer
-- [ ] Created the internal load balancer
-- [ ] Configured listeners and health checks
-- [ ] Deployed the Web Tier compute resources
-- [ ] Deployed the private Application Tier compute resources
-- [ ] Provisioned private managed MySQL
-- [ ] Configured Multi-AZ or high availability
-- [ ] Configured a read replica
-- [ ] Created the modular Terraform project
-- [ ] Used variables, outputs, and module dependencies
-- [ ] Used current Terraform documentation through MCP
-- [ ] Used hooks for deterministic validation
-- [ ] Completed `terraform fmt`
-- [ ] Completed `terraform validate`
-- [ ] Reviewed `terraform plan`
-- [ ] Completed the Terraform Engineer review
-- [ ] Completed the Architecture and Security review
-- [ ] Applied the infrastructure only after human approval
-- [ ] Deployed and configured the backend
-- [ ] Deployed and configured the frontend
-- [ ] Configured Nginx where required
-- [ ] Configured the internal backend endpoint
-- [ ] Configured the public frontend endpoint
-- [ ] Verified the homepage
-- [ ] Verified login or authentication
-- [ ] Verified book data
-- [ ] Verified review functionality
-- [ ] Verified the backend API
-- [ ] Verified database reads and writes
-- [ ] Verified healthy load-balancer targets
-- [ ] Included AI-assisted Terraform generation evidence
-- [ ] Included one architecture or security review
-- [ ] Included one AI-assisted troubleshooting example
-- [ ] Completed the final architecture review
-- [ ] Answered all 15 reflection questions
-- [ ] Published the mandatory LinkedIn post
-- [ ] Added the LinkedIn post URL
-- [ ] Captured all 28 required screenshots
-- [ ] Confirmed that my full name is visible in the required screenshots
-- [ ] Checked that no secrets or sensitive information are exposed
+- [/] Selected AWS or Azure
+- [/] Added and reviewed the Agentic AI starter files
+- [/] Configured `CLAUDE.md`
+- [/] Configured the Terraform Engineer subagent
+- [/] Configured the Architecture and Security Reviewer subagent
+- [/] Connected Terraform MCP
+- [/] Configured validation hooks and safety guardrails
+- [/] Created the architecture diagram
+- [/] Created the six-subnet design
+- [/] Configured public Web Tier routing
+- [/] Kept the Application Tier private
+- [/] Kept the Database Tier private
+- [/] Configured tier-specific Security Groups or NSGs
+- [/] Restricted backend port `3001`
+- [/] Restricted MySQL port `3306` to the Application Tier
+- [/] Created the public load balancer
+- [/] Created the internal load balancer
+- [/] Configured listeners and health checks
+- [/] Deployed the Web Tier compute resources
+- [/] Deployed the private Application Tier compute resources
+- [/] Provisioned private managed MySQL
+- [/] Configured Multi-AZ or high availability
+- [/] Configured a read replica
+- [/] Created the modular Terraform project
+- [/] Used variables, outputs, and module dependencies
+- [/] Used current Terraform documentation through MCP
+- [/] Used hooks for deterministic validation
+- [/] Completed `terraform fmt`
+- [/] Completed `terraform validate`
+- [/] Reviewed `terraform plan`
+- [/] Completed the Terraform Engineer review
+- [/] Completed the Architecture and Security review
+- [/] Applied the infrastructure only after human approval
+- [/] Deployed and configured the backend
+- [/] Deployed and configured the frontend
+- [/] Configured Nginx where required
+- [/] Configured the internal backend endpoint
+- [/] Configured the public frontend endpoint
+- [/] Verified the homepage
+- [/] Verified login or authentication
+- [/] Verified book data
+- [/] Verified review functionality
+- [/] Verified the backend API
+- [/] Verified database reads and writes
+- [/] Verified healthy load-balancer targets
+- [/] Included AI-assisted Terraform generation evidence
+- [/] Included one architecture or security review
+- [/] Included one AI-assisted troubleshooting example
+- [/] Completed the final architecture review
+- [/] Answered all 15 reflection questions
+- [/] Published the mandatory LinkedIn post
+- [/] Added the LinkedIn post URL
+- [/] Captured all 28 required screenshots
+- [/] Confirmed that my full name is visible in the required screenshots
+- [/] Checked that no secrets or sensitive information are exposed
 
 ---
 
@@ -543,4 +571,4 @@ It helps learners build strong DevOps foundations through hands-on experience.
 
 ---
 
-*This submission is part of the DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+_This submission is part of the DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track._
