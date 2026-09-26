@@ -109,7 +109,11 @@ Paste your forked repository URL here:
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/jacquelinastanley_mastering-agent-skills-ugcPost-7485952982107193344-kjTh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqgUDgBkc_3b0ArkGRFdG2zpRLpgXmzwTo`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

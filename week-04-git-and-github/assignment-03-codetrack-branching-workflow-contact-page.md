@@ -160,7 +160,7 @@ Display the repository history as a graph and locate both feature commits.
 
 ---
 
-# Task 8 — Optional Cleanup (Delete the Feature Branch)
+# Task 8 — Cleanup (Delete the Feature Branch)
 
 ## Goal
 
@@ -168,7 +168,23 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 ### Evidence
 
-#### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
+#### Screenshot 15 — Output showing `feature/contact-page` deleted and no longer listed
+
+Add your screenshot here.
+
+---
+
+# LinkedIn Post (Required)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+Add your URL here...
+
+#### Screenshot 16 — LinkedIn post published with the Git branching workflow summary
 
 I've kept it and did not do this optional task 
 
@@ -176,7 +192,7 @@ I've kept it and did not do this optional task
 
 # Submission Instructions
 
-- Tasks 1–7 are required; Task 8 is optional
+- Tasks 1–8 is completed.
 - Add all required screenshots in your submission
 - Evidence must show `contact.html` and the homepage link were absent before merging, and working after merging
 - Do not expose passwords, access tokens, or private keys
@@ -185,6 +201,7 @@ I've kept it and did not do this optional task
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [✅] Repository confirmed clean on the default branch (Screenshot 1)
 - [✅] `feature/contact-page` created and checked out (Screenshot 2)
 - [✅] `contact.html` added in its own commit (Screenshots 3–5)
@@ -194,6 +211,18 @@ I've kept it and did not do this optional task
 - [✅] Graph history reviewed (Screenshot 14)
 - [✅] Optional cleanup completed (Screenshot 15)
 - [✅] No sensitive data exposed
+=======
+- [ ] Repository confirmed clean on the default branch (Screenshot 1)
+- [ ] `feature/contact-page` created and checked out (Screenshot 2)
+- [ ] `contact.html` added in its own commit (Screenshots 3–5)
+- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
+- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [ ] Graph history reviewed (Screenshot 14)
+- [ ] Cleanup completed (Screenshot 15)
+- [ ] LinkedIn post added
+- [ ] No sensitive data exposed
+>>>>>>> upstream/main
 
 ---
 
