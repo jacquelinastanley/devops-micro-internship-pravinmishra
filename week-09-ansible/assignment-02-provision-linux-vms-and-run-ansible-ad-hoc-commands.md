@@ -273,13 +273,13 @@ Add your answer here.
 
 Confirm that the following files are included in your assignment workspace:
 
-- [ ] `ansible-adhoc-lab/README.md`
-- [ ] `ansible-adhoc-lab/terraform/providers.tf`
-- [ ] `ansible-adhoc-lab/terraform/main.tf`
-- [ ] `ansible-adhoc-lab/terraform/variables.tf`
-- [ ] `ansible-adhoc-lab/terraform/outputs.tf`
-- [ ] `ansible-adhoc-lab/ansible/inventory.ini`
-- [ ] Updated `.gitignore`
+- [/] `ansible-adhoc-lab/README.md`
+- [/] `ansible-adhoc-lab/terraform/providers.tf`
+- [/] `ansible-adhoc-lab/terraform/main.tf`
+- [/] `ansible-adhoc-lab/terraform/variables.tf`
+- [/] `ansible-adhoc-lab/terraform/outputs.tf`
+- [/] `ansible-adhoc-lab/ansible/inventory.ini`
+- [/] Updated `.gitignore`
 
 ---
 
@@ -300,30 +300,30 @@ Confirm that the following files are included in your assignment workspace:
 
 # Completion Checklist
 
-- [ ] Task 1: `ansible-adhoc-lab` project structure created
-- [ ] Task 1: `.gitignore` updated for Terraform files
-- [ ] Task 2: Terraform configuration created
-- [ ] Task 2: Server roles defined for either three or four VMs
-- [ ] Task 2: `count` or `for_each` used
-- [ ] Task 2: SSH restricted to the controller public IP
-- [ ] Task 2: HTTP allowed only for web hosts
-- [ ] Task 2: Terraform output maps roles to public IPs
-- [ ] Task 3: Terraform initialized successfully
-- [ ] Task 3: Terraform configuration validated
-- [ ] Task 3: Terraform apply completed successfully
-- [ ] Task 3: All selected VMs are running
-- [ ] Task 4: SSH key-based access works for every VM
-- [ ] Task 5: `inventory.ini` contains `web`, `app`, and `db` groups
-- [ ] Task 5: `ansible-inventory -i inventory.ini --graph` shows the correct groups
-- [ ] Task 6: `ansible all -i inventory.ini -m ping` returns `SUCCESS`
-- [ ] Task 6: Ad-hoc commands run successfully
-- [ ] Task 6: `--become` was used for package and service tasks
-- [ ] Task 6: Nginx is active on the `web` group
-- [ ] Screenshots 1–17 are included
-- [ ] Assignment questions are answered
-- [ ] LinkedIn post published
-- [ ] LinkedIn post URL added
-- [ ] No sensitive information is exposed
+- [/] Task 1: `ansible-adhoc-lab` project structure created
+- [/] Task 1: `.gitignore` updated for Terraform files
+- [/] Task 2: Terraform configuration created
+- [/] Task 2: Server roles defined for either three or four VMs
+- [/] Task 2: `count` or `for_each` used
+- [/] Task 2: SSH restricted to the controller public IP
+- [/] Task 2: HTTP allowed only for web hosts
+- [/] Task 2: Terraform output maps roles to public IPs
+- [/] Task 3: Terraform initialized successfully
+- [/] Task 3: Terraform configuration validated
+- [/] Task 3: Terraform apply completed successfully
+- [/] Task 3: All selected VMs are running
+- [/] Task 4: SSH key-based access works for every VM
+- [/] Task 5: `inventory.ini` contains `web`, `app`, and `db` groups
+- [/] Task 5: `ansible-inventory -i inventory.ini --graph` shows the correct groups
+- [/] Task 6: `ansible all -i inventory.ini -m ping` returns `SUCCESS`
+- [/] Task 6: Ad-hoc commands run successfully
+- [/] Task 6: `--become` was used for package and service tasks
+- [/] Task 6: Nginx is active on the `web` group
+- [/] Screenshots 1–17 are included
+- [/] Assignment questions are answered
+- [/] LinkedIn post published
+- [/] LinkedIn post URL added
+- [/] No sensitive information is exposed
 
 ---
 
@@ -347,4 +347,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+_This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track._

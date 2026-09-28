@@ -142,7 +142,7 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-![alt text](image-32.png) screenshots/W8-A5-T3-S9
+![alt text](screenshots/W8-A5-T3-S9.png)
 
 ---
 
@@ -150,8 +150,8 @@ Add a screenshot showing the Web and Application compute resources in their requ
 
 Add a screenshot showing the internet-facing public load balancer.
 
-![alt text](image-33.png) screenshots/W8-A5-T3-S10A
-![alt text](image-34.png) screenshots/W8-A5-T3-S10B
+![alt text](screenshots/W8-A5-T3-S10A.png)
+![alt text](screenshots/W8-A5-T3-S10B.png)
 
 ---
 
@@ -159,8 +159,8 @@ Add a screenshot showing the internet-facing public load balancer.
 
 Add a screenshot showing the private internal load balancer.
 
-![alt text](image-35.png) screenshots/W8-A5-T3-S11A
-![alt text](image-36.png) screenshots/W8-A5-T3-S11B
+![alt text](screenshots/W8-A5-T3-S11A.png)
+![alt text](screenshots/W8-A5-T3-S11B.png)
 
 ---
 
@@ -168,7 +168,7 @@ Add a screenshot showing the private internal load balancer.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-![alt text](image-17.png) screenshots/W8-A5-T3-S12
+![alt text](screenshots/W8-A5-T3-S12.png)
 
 ---
 
@@ -184,7 +184,7 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-![alt text](image-37.png) screenshots/W8-A5-T4-S13
+![alt text](screenshots/W8-A5-T4-S13.png)
 
 ---
 
@@ -192,7 +192,7 @@ Add a screenshot showing the managed MySQL database deployment.
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-![alt text](image-38.png) screenshots/W8-A5-T4-S14
+![alt text](screenshots/W8-A5-T4-S14.png)
 
 The Terraform production design supports RDS Multi-AZ through enable_multi_az = true. The live deployment used Single-AZ because the AWS Free Tier account imposed deployment restrictions.
 
@@ -206,7 +206,7 @@ AWS Free Tier deployment constraint: The production Terraform configuration impl
 
 Add a screenshot showing the read replica configuration.
 
-![alt text](image-39.png) screenshots/W8-A5-T4-S15
+![alt text](screenshots/W8-A5-T4-S15.png)
 
 The production Terraform design provisions a MySQL read replica. Replica deployment was disabled in the live Free Tier-compatible environment.
 
@@ -216,7 +216,7 @@ The production Terraform design provisions a MySQL read replica. Replica deploym
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-![alt text](image-40.png) screenshots/W8-A5-T4-S16
+![alt text](screenshots/W8-A5-T4-S16.png)
 
 ---
 
@@ -240,7 +240,7 @@ Add a screenshot showing successful `terraform validate` output.
 
 Add a screenshot showing the Terraform plan output.
 
-![alt text](image-13.png) screenshots/W8-A5-T5-S18
+![alt text](screenshots/W8-A5-T5-S18.png)
 
 ---
 
@@ -248,8 +248,8 @@ Add a screenshot showing the Terraform plan output.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-![alt text](image-14.png) screenshots/W8-A5-T5-S19A
-![alt text](image-16.png) screenshots/W8-A5-T5-S19B
+![alt text](screenshots/W8-A5-T5-S19A.png)
+![alt text](screenshots/W8-A5-T5-S19B.png)
 
 ---
 
@@ -265,7 +265,7 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-![alt text](image-18.png) screenshots/W8-A5-T6-S20
+![alt text](screenshots/W8-A5-T6-S20.png)
 
 ---
 
@@ -273,8 +273,8 @@ Add a screenshot showing the Book Review App homepage through the public endpoin
 
 Add a screenshot showing successful login or authentication.
 
-![alt text](image-19.png) screenshots/W8-A5-T6-S21A
-![alt text](image-20.png) screenshots/W8-A5-T6-S21B
+![alt text](screenshots/W8-A5-T6-S21A.png)
+![alt text](screenshots/W8-A5-T6-S21B.png)
 
 ---
 
@@ -282,15 +282,13 @@ Add a screenshot showing successful login or authentication.
 
 Add a screenshot showing the book listing or book details.
 
-![alt text](image-21.png) screenshots/W8-A5-T6-S22
-
----
+## ![alt text](screenshots/W8-A5-T6-S22.png)
 
 ### Screenshot 23 — Review Functionality
 
 Add a screenshot showing the review functionality working successfully.
 
-![alt text](image-22.png) screenshots/W8-A5-T6-S23
+![alt text](screenshots/W8-A5-T6-S23.png)
 
 ---
 
@@ -298,7 +296,7 @@ Add a screenshot showing the review functionality working successfully.
 
 Add a screenshot showing that the backend or API is working successfully.
 
-![alt text](image-24.png) screenshots/W8-A5-T6-S24
+![alt text](screenshots/W8-A5-T6-S24.png)
 
 ---
 
@@ -306,7 +304,7 @@ Add a screenshot showing that the backend or API is working successfully.
 
 Add a screenshot showing successful database reads and writes.
 
-![alt text](image-25.png) screenshots/W8-A5-T6-S25
+![alt text](screenshots/W8-A5-T6-S25.png)
 
 ## Public Application URL
 
@@ -328,11 +326,11 @@ You do not need to submit your complete Claude Code conversation history. Includ
 
 Add a screenshot showing one useful example of AI-assisted Terraform generation or improvement.
 
-![alt text](image.png) screenshots/W8-A5-T7-S26A
-![alt text](image-1.png) screenshots/W8-A5-T7-S26B
-![alt text](image-7.png) screenshots/W8-A5-T7-S26C
-![alt text](image-8.png) screenshots/W8-A5-T7-S26D
-![alt text](image-9.png) screenshots/W8-A5-T7-S26E
+![alt text](screenshots/W8-A5-T7-S26A.png)
+![alt text](screenshots/W8-A5-T7-S26B.png)
+![alt text](creenshots/W8-A5-T7-S26C.png)
+![alt text](screenshots/W8-A5-T7-S26D.png)
+![alt text](screenshots/W8-A5-T7-S26E.png)
 
 ---
 
@@ -340,12 +338,12 @@ Add a screenshot showing one useful example of AI-assisted Terraform generation 
 
 Add a screenshot showing one structured architecture or security review result.
 
-![alt text](image-5.png) screenshots/W8-A5-T7-S27A
-![alt text](image-6.png) screenshots/W8-A5-T7-S27B
-![alt text](image-2.png) screenshots/W8-A5-T7-S27C
-![alt text](image-10.png) screenshots/W8-A5-T7-S27D
-![alt text](image-11.png) screenshots/W8-A5-T7-S27E
-![alt text](image-12.png) screenshots/W8-A5-T7-S27F
+![alt text](screenshots/W8-A5-T7-S27A.png)
+![alt text](screenshots/W8-A5-T7-S27B.png)
+![alt text](screenshots/W8-A5-T7-S27C.png)
+![alt text](screenshots/W8-A5-T7-S27D.png)
+![alt text](screenshots/W8-A5-T7-S27E.png)
+![alt text](screenshots/W8-A5-T7-S27F.png)
 
 ---
 
@@ -353,8 +351,8 @@ Add a screenshot showing one structured architecture or security review result.
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-![alt text](image-3.png) screenshots/W8-A5-T7-S28A
-![alt text](image-4.png) screenshots/W8-A5-T7-S28B
+![alt text](screenshots/W8-A5-T7-S28A.png)
+![alt text](screenshots/W8-A5-T7-S28B.png)
 
 ---
 
@@ -381,7 +379,7 @@ Confirm that the final review covers:
 
 Use Screenshot 27 as the focused evidence for the structured architecture or security review.
 
-![alt text](image-41.png) screenshots/W8-A5-T7-S27C
+![alt text](screenshots/W8-A5-T7-S27C.png)
 
 ---
 

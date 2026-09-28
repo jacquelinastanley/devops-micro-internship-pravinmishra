@@ -24,7 +24,7 @@ Prepare your local environment for Terraform deployment by installing Terraform,
 
 Ensure that your full name is visible and that no AWS credentials, account IDs, or other sensitive information are exposed.
 
-![screenshot](screenshots/W8-A2-T0-S1.png) 
+![screenshot](screenshots/W8-A2-T0-S1.png)
 
 ---
 
@@ -36,25 +36,25 @@ Create a new Terraform project and define the complete AWS EC2 environment in `m
 
 The configuration must include:
 
-* Terraform and AWS provider configuration
-* Custom VPC using the CIDR block `10.0.0.0/16`
-* Public subnet using the CIDR block `10.0.1.0/24`
-* Private subnet using the CIDR block `10.0.2.0/24`
-* Internet Gateway
-* Public route table with a route to `0.0.0.0/0`
-* Public subnet route table association
-* Security group allowing SSH on port `22`
-* Security group allowing HTTP on port `80`
-* EC2 instance deployed inside the public subnet
-* SSH authentication configuration
-* Public IP address association
-* Public IP output block
+- Terraform and AWS provider configuration
+- Custom VPC using the CIDR block `10.0.0.0/16`
+- Public subnet using the CIDR block `10.0.1.0/24`
+- Private subnet using the CIDR block `10.0.2.0/24`
+- Internet Gateway
+- Public route table with a route to `0.0.0.0/0`
+- Public subnet route table association
+- Security group allowing SSH on port `22`
+- Security group allowing HTTP on port `80`
+- EC2 instance deployed inside the public subnet
+- SSH authentication configuration
+- Public IP address association
+- Public IP output block
 
 ### Evidence
 
 #### Screenshot 2 — VS Code showing the AWS provider configuration and VPC configuration in `main.tf`
 
-![screenshot](screenshots/W8-A2-T1-S2.png) 
+![screenshot](screenshots/W8-A2-T1-S2.png)
 
 ---
 
@@ -62,7 +62,7 @@ The configuration must include:
 
 Ensure that no AWS credentials, private keys, account IDs, or other sensitive information are visible.
 
-![screenshot](screenshots/W8-A2-T1-S3.png) 
+![screenshot](screenshots/W8-A2-T1-S3.png)
 
 ---
 
@@ -76,7 +76,7 @@ Initialize the Terraform working directory and download the required provider co
 
 #### Screenshot 4 — Terminal showing the successful `terraform init` output
 
-![screenshot](screenshots/W8-A2-T2-S4.png) 
+![screenshot](screenshots/W8-A2-T2-S4.png)
 
 ---
 
@@ -90,19 +90,19 @@ Review the Terraform execution plan, provision the AWS resources, and record the
 
 #### Screenshot 5 — Terraform plan summary showing the proposed resources
 
-![screenshot](screenshots/W8-A2-T3-S5.png) 
+![screenshot](screenshots/W8-A2-T3-S5.png)
 
 ---
 
 #### Screenshot 6 — Terraform apply output showing successful completion
 
-![screenshot](screenshots/W8-A2-T3-S6.png) 
+![screenshot](screenshots/W8-A2-T3-S6.png)
 
 ---
 
 #### Screenshot 7 — Terraform output showing the public IP address of the EC2 instance
 
-![screenshot](screenshots/W8-A2-T3-S7.png) 
+![screenshot](screenshots/W8-A2-T3-S7.png)
 
 ---
 
@@ -122,23 +122,23 @@ Confirm through AWS CLI that the EC2 instance was created successfully and is ru
 
 Confirm that:
 
-* The EC2 instance appears in the AWS CLI output.
-* The EC2 instance state shows `running`.
-* The public IP shown by AWS matches the public IP recorded from Terraform.
-* Nginx is installed and running.
-* The Nginx page is accessible through the EC2 instance’s public IP.
+- The EC2 instance appears in the AWS CLI output.
+- The EC2 instance state shows `running`.
+- The public IP shown by AWS matches the public IP recorded from Terraform.
+- Nginx is installed and running.
+- The Nginx page is accessible through the EC2 instance’s public IP.
 
 ### Evidence
 
 #### Screenshot 8 — AWS CLI output showing the EC2 instance ID, `running` state, and public IP address
 
-![screenshot](screenshots/W8-A2-T4-S8.png) 
+![screenshot](screenshots/W8-A2-T4-S8.png)
 
 ---
 
 #### Screenshot 9 — Browser showing the Nginx page successfully loaded using the EC2 instance public IP
 
-![screenshot](screenshots/W8-A2-T4-S9.png) 
+![screenshot](screenshots/W8-A2-T4-S9.png)
 
 ---
 
@@ -152,7 +152,7 @@ Remove all AWS resources created by Terraform after completing the deployment an
 
 #### Screenshot 10 — Terminal showing successful `terraform destroy` completion
 
-![screenshot](screenshots/W8-A2-T5-S10.png) 
+![screenshot](screenshots/W8-A2-T5-S10.png)
 
 ---
 
@@ -174,79 +174,49 @@ Add your screenshot here.
 
 # Submission Instructions
 
-* Complete all tasks in sequence.
-* Include all required screenshots specified in Tasks 0–6.
-* Ensure that your full name is visible in the required screenshots.
-* Record the EC2 public IP address in Task 3.
-* Follow the screenshot requirements exactly as specified.
-* Ensure that the submitted evidence clearly matches the required task outputs.
-* Do not expose AWS access keys, secret keys, private keys, passwords, account IDs, or other sensitive information.
-* Do not upload your private key file (`.pem`) to your GitHub repository.
-* Review your submission carefully before submitting it through GitHub.
+- Complete all tasks in sequence.
+- Include all required screenshots specified in Tasks 0–6.
+- Ensure that your full name is visible in the required screenshots.
+- Record the EC2 public IP address in Task 3.
+- Follow the screenshot requirements exactly as specified.
+- Ensure that the submitted evidence clearly matches the required task outputs.
+- Do not expose AWS access keys, secret keys, private keys, passwords, account IDs, or other sensitive information.
+- Do not upload your private key file (`.pem`) to your GitHub repository.
+- Review your submission carefully before submitting it through GitHub.
 
 ---
 
 # Completion Checklist
 
-<<<<<<< HEAD
-* [/] Installed Terraform and verified it using `terraform version`
-* [/] Installed AWS CLI and verified it using `aws --version`
-* [/] Configured AWS CLI and verified account access
-* [/] Confirmed the correct AWS Region
-* [/] Installed and enabled the HashiCorp Terraform extension in VS Code
-* [/] Created the `terraform-aws-vm` project directory and `main.tf`
-* [/] Added the Terraform and AWS provider configuration
-* [/] Defined the custom VPC, public subnet, and private subnet
-* [/] Configured the Internet Gateway and public route table
-* [/] Associated the public route table with the public subnet
-* [/] Defined the security group for SSH and HTTP access
-* [/] Restricted SSH access to my public IP whenever possible
-* [/] Defined the EC2 instance inside the public subnet
-* [/] Configured SSH authentication without exposing the private key
-* [/] Added the Terraform output for the EC2 public IP address
-* [/] Completed `terraform init` successfully
-* [/] Reviewed the Terraform execution plan using `terraform plan`
-* [/] Completed `terraform apply` successfully
-* [/] Captured and recorded the EC2 public IP using `terraform output`
-* [/] Verified that the EC2 instance is running using AWS CLI
-* [/] Verified that the AWS public IP matches the Terraform output
-* [/] Verified Nginx access through the EC2 public IP
-* [/] Completed `terraform destroy` successfully
-* [/] Captured all 10 required screenshots
-* [/] Confirmed that my full name is visible in the required screenshots
-* [/] Checked that no AWS credentials, private keys, passwords, account IDs, or other sensitive information are visible
-* [/] Confirmed that no `.pem` private key file has been uploaded to the GitHub repository
-=======
-* [ ] Installed Terraform and verified it using `terraform version`
-* [ ] Installed AWS CLI and verified it using `aws --version`
-* [ ] Configured AWS CLI and verified account access
-* [ ] Confirmed the correct AWS Region
-* [ ] Installed and enabled the HashiCorp Terraform extension in VS Code
-* [ ] Created the `terraform-aws-vm` project directory and `main.tf`
-* [ ] Added the Terraform and AWS provider configuration
-* [ ] Defined the custom VPC, public subnet, and private subnet
-* [ ] Configured the Internet Gateway and public route table
-* [ ] Associated the public route table with the public subnet
-* [ ] Defined the security group for SSH and HTTP access
-* [ ] Restricted SSH access to my public IP whenever possible
-* [ ] Defined the EC2 instance inside the public subnet
-* [ ] Configured SSH authentication without exposing the private key
-* [ ] Added the Terraform output for the EC2 public IP address
-* [ ] Completed `terraform init` successfully
-* [ ] Reviewed the Terraform execution plan using `terraform plan`
-* [ ] Completed `terraform apply` successfully
-* [ ] Captured and recorded the EC2 public IP using `terraform output`
-* [ ] Verified that the EC2 instance is running using AWS CLI
-* [ ] Verified that the AWS public IP matches the Terraform output
-* [ ] Verified Nginx access through the EC2 public IP
-* [ ] Completed `terraform destroy` successfully
-* [ ] Shared Terraform deployment progress on Facebook or WhatsApp by following Task 6
-* [ ] Captured a screenshot of the published Facebook post/Story or WhatsApp Status
-* [ ] Captured all 11 required screenshots
-* [ ] Confirmed that my full name is visible in the required screenshots
-* [ ] Checked that no AWS credentials, private keys, passwords, account IDs, or other sensitive information are visible
-* [ ] Confirmed that no `.pem` private key file has been uploaded to the GitHub repository
->>>>>>> upstream/main
+- [/] Installed Terraform and verified it using `terraform version`
+- [/] Installed AWS CLI and verified it using `aws --version`
+- [/] Configured AWS CLI and verified account access
+- [/] Confirmed the correct AWS Region
+- [/] Installed and enabled the HashiCorp Terraform extension in VS Code
+- [/] Created the `terraform-aws-vm` project directory and `main.tf`
+- [/] Added the Terraform and AWS provider configuration
+- [/] Defined the custom VPC, public subnet, and private subnet
+- [/] Configured the Internet Gateway and public route table
+- [/] Associated the public route table with the public subnet
+- [/] Defined the security group for SSH and HTTP access
+- [/] Restricted SSH access to my public IP whenever possible
+- [/] Defined the EC2 instance inside the public subnet
+- [/] Configured SSH authentication without exposing the private key
+- [/] Added the Terraform output for the EC2 public IP address
+- [/] Completed `terraform init` successfully
+- [/] Reviewed the Terraform execution plan using `terraform plan`
+- [/] Completed `terraform apply` successfully
+- [/] Captured and recorded the EC2 public IP using `terraform output`
+- [/] Verified that the EC2 instance is running using AWS CLI
+- [/] Verified that the AWS public IP matches the Terraform output
+- [/] Verified Nginx access through the EC2 public IP
+- [/] Completed `terraform destroy` successfully
+- [/] Shared Terraform deployment progress on Facebook or WhatsApp by following Task 6
+- [/] Captured a screenshot of the published Facebook post/Story or WhatsApp Status
+- [/] Captured all 11 required screenshots
+- [/] Confirmed that my full name is visible in the required screenshots
+- [/] Checked that no AWS credentials, private keys, passwords, account IDs, or other sensitive information are visible
+- [/] Confirmed that no `.pem` private key file has been uploaded to the GitHub repository
 
 ---
 
@@ -260,14 +230,14 @@ It helps learners build strong DevOps foundations through hands-on experience.
 
 ## 📌 Resources
 
-* 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
-* 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme
-* 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
-* 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme
-* ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho
-* 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/
-* 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
 
-*This submission is part of the DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+_This submission is part of the DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track._
